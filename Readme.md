@@ -6,6 +6,8 @@
 
 ## Introduction <a name="introduction"></a>
 
+First we will get some data for the neural networks.
+
 ## Theoretical Foundations <a name="paragraph1"></a>
 
 ### Gradient Descent <a name="subparagraph1"></a>
