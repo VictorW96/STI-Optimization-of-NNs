@@ -26,11 +26,14 @@ plt.show()
 
 # Neural Network
 boston_NN = Sequential()
-boston_NN.add(Dense(units=64, activation='relu', input_dim=(13,)))
+boston_NN.add(Dense(units=64, activation='relu', input_shape=(13,)))
 boston_NN.add(Dense(units=64, activation='softmax'))
 boston_NN.add(Dense(units=1, activation='linear'))
 
 boston_NN.compile(loss='mse',
                   optimizer='sgd',
                   metrics=['mae'])
+
+boston_NN.fit(X_boston.values,y_boston,epochs=20,batch_size=40)
+
                   
