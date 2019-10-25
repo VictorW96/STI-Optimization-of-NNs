@@ -4,9 +4,16 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pylint = "*"
+jupyter = "*"
+notebook = "*"
 
 [packages]
+sklearn = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+keras = "*"
+tensorflow = "*"
 
 [requires]
 python_version = "3.6"
