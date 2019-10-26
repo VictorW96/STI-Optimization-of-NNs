@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import sklearn.datasets as datasets
+from sklearn.model_selection import train_test_split
 from keras.layers import Dense
 from keras.models import Sequential
 
@@ -24,16 +25,27 @@ boston_cor = X_y_boston.corr()
 sns.heatmap(boston_cor, annot=True,  cmap=plt.cm.Reds)
 plt.show()
 
-# Neural Network
+# Neural Network structure
 boston_NN = Sequential()
-boston_NN.add(Dense(units=64, activation='relu', input_shape=(13,)))
-boston_NN.add(Dense(units=64, activation='softmax'))
+boston_NN.add(Dense(units=160, activation='relu', input_shape=(13,)))
+boston_NN.add(Dense(units=64, activation='linear'))
 boston_NN.add(Dense(units=1, activation='linear'))
 
+# NN compile
 boston_NN.compile(loss='mse',
-                  optimizer='sgd',
+                  optimizer='adam',
                   metrics=['mae'])
 
-boston_NN.fit(X_boston.values,y_boston,epochs=20,batch_size=40)
+# train data fitting
+X_train_boston, X_test_boston, y_train_boston, y_test_boston = train_test_split(X_boston,y_boston,test_size=0.2)
+boston_NN.fit(X_train_boston.values,y_train_boston,epochs=20,batch_size=1)
 
                   
+predict=boston_NN.predict(X_test_boston, batch_size=1)
+error = np.abs(predict - y_test_boston.values)
+
+fig, ax = plt.subplots(1,1)
+ax.plot(predict, color='green', marker='o', linestyle= 'dotted')
+ax.plot(y_test_boston.values, color='blue', marker='o', linestyle= 'dotted')
+plt.show()
+
