@@ -1,7 +1,3 @@
-import sys, os
-myPath = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, myPath + '/../')
-
 from optimizer_evaluation.datasets import DataSets
 import pandas as pd
 
