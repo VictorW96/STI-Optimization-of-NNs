@@ -7,15 +7,13 @@ class NeuralNetworks:
     _regression_NN .add(Dense(units=64, activation='linear'))
     _regression_NN .add(Dense(units=1, activation='linear'))
 
-    _neural_networks = {'regression': _regression_NN}
+    neural_networks = {'regression': _regression_NN}
 
     def __init__(self):
         pass
 
-    def add(self, neural_network):
-        pass
+    def add(self,name,  neural_network):
+        NeuralNetworks.neural_networks[name] = neural_network
 
-    def fit(self, name):
-        pass
-
-    def 
+    def compile(self, name, loss, optimizer, metrics):
+        NeuralNetworks.neural_networks[name].compile(loss=loss, optimizer=optimizer, metrics=[metrics])

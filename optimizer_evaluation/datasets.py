@@ -1,22 +1,22 @@
-import numpy as np
 import pandas as pd
-import sklearn.datasets as datasets
-from datastructure import FeatureTargetData
+import sklearn.datasets as skdatasets
+from optimizer_evaluation.featuretarget import FeatureTargetData
 from sklearn.model_selection import train_test_split
 
 class DataSets:
-    """DataSets is a key value save for Data Sets."""
+    """DataSets is a key value save for Data Sets. Standard Sets are
+    'boston',type:regression and 'breast_cancer',type:classification """
 
-    _data_boston = datasets.load_boston()
+    _data_boston = skdatasets.load_boston()
     _X_boston = pd.DataFrame(data = _data_boston.data, columns=_data_boston.feature_names)
     _y_boston = pd.DataFrame(data= _data_boston.target, columns = ['price'])
 
-    _data_breast_cancer = datasets.load_breast_cancer()
+    _data_breast_cancer = skdatasets.load_breast_cancer()
     _X_breast_cancer = pd.DataFrame(data = _data_breast_cancer.data, columns=_data_breast_cancer.feature_names)
     _y_breast_cancer = pd.DataFrame(data= _data_breast_cancer.target, columns = ['class'])
 
     _datasets = {'boston' : FeatureTargetData(_X_boston,_y_boston,'regression'),
-                    'breast_cancer' : FeatureTargetData(_X_breast_cancer,_y_breast_cancer,'classification')} 
+                 'breast_cancer' : FeatureTargetData(_X_breast_cancer,_y_breast_cancer,'classification')}
 
     def __init__(self):
         pass

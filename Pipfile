@@ -8,6 +8,7 @@ jupyter = "*"
 notebook = "*"
 pylint = "*"
 rope = "*"
+pytest = "*"
 
 [packages]
 sklearn = "*"
