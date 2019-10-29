@@ -2,6 +2,7 @@ import pandas as pd
 import sklearn.datasets as skdatasets
 from optimizer_evaluation.featuretarget import FeatureTargetData
 from sklearn.model_selection import train_test_split
+import optimizer_evaluation
 
 class DataSets:
     """DataSets is a key value save for Data Sets. Standard Sets are

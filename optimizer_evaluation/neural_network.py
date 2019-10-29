@@ -1,5 +1,6 @@
 from keras.layers import Dense
 from keras.models import Sequential
+import optimizer_evaluation
 
 class NeuralNetworks:
     """Key value store for neural networks, 'boston' for example is a sequential neural network for the boston dataset

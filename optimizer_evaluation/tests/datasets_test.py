@@ -1,6 +1,7 @@
 from optimizer_evaluation.datasets import DataSets
 import pandas as pd
 import optimizer_evaluation
+import optimizer_evaluation
 
 datasets = DataSets()
 

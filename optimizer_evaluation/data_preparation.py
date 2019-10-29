@@ -6,6 +6,7 @@ import sklearn.datasets as datasets
 from sklearn.model_selection import train_test_split
 from keras.layers import Dense
 from keras.models import Sequential
+import optimizer_evaluation
 
 data_boston = datasets.load_boston()
 X_boston = pd.DataFrame(data = data_boston.data, columns=data_boston.feature_names)

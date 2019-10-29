@@ -9,6 +9,8 @@ notebook = "*"
 pylint = "*"
 rope = "*"
 pytest = "*"
+pep8 = "*"
+pylama = "*"
 
 [packages]
 sklearn = "*"
@@ -17,6 +19,7 @@ matplotlib = "*"
 seaborn = "*"
 keras = "*"
 tensorflow = "*"
+pytest = "==5.0.1"
 
 [requires]
 python_version = "3.6"
