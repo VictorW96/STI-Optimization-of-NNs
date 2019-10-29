@@ -15,7 +15,7 @@ class ADAMTester(Data_Tester):
             X_train, X_test, y_train, y_test = self.datasets.get_train_test(name)
             nn = self.neural_networks.get(name)
 
-            if self.datasets.get(name) == 'regression':
+            if self.datasets.get(name).type == 'regression':
                 loss = 'mse'
                 metrics = ['mae']
             else:
