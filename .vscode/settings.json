@@ -1,5 +1,11 @@
 {
-    "python.pythonPath": "C:\\Users\\Victor\\.virtualenvs\\STI-Optimization-of-NNs-36bbiuXU\\Scripts\\python.exe",
+    "python.pythonPath": "C:\\Users\\Victor\\.virtualenvs\\STI-Optimization-of-NNs-vu2nEnJV\\Scripts\\python.exe",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.testing.pytestArgs": [
+        "optimizer_evaluation"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }

@@ -15,7 +15,7 @@ class DataSets:
     _X_breast_cancer = pd.DataFrame(data = _data_breast_cancer.data, columns=_data_breast_cancer.feature_names)
     _y_breast_cancer = pd.DataFrame(data= _data_breast_cancer.target, columns = ['class'])
 
-    _datasets = {'boston' : FeatureTargetData(_X_boston,_y_boston,'regression'),
+    datasets = {'boston' : FeatureTargetData(_X_boston,_y_boston,'regression'),
                  'breast_cancer' : FeatureTargetData(_X_breast_cancer,_y_breast_cancer,'classification')}
 
     def __init__(self):
@@ -31,7 +31,7 @@ class DataSets:
             y {pandas.DataFrame} -- target as nx1 pandas Dataframe
             type {string} -- [either regression or classification ]
         """
-        DataSets._datasets[name] = FeatureTargetData(X,y,type_cr)
+        DataSets.datasets[name] = FeatureTargetData(X,y,type_cr)
 
     def get_train_test(self,name):
         """return train_test_split of sklearn to the corresponding dataset
@@ -39,5 +39,13 @@ class DataSets:
         Arguments:
             name {string} -- name of dataset  
         """
-        return train_test_split(DataSets._datasets[name].X,DataSets._datasets[name].y,test_size=0.2)
+        return train_test_split(DataSets.datasets[name].X,DataSets.datasets[name].y,test_size=0.2)
 
+    def get(self, name):
+        return DataSets.datasets[name]
+
+    def __iter__(self):
+        return iter(DataSets.datasets)
+
+    def next(self):
+        return next(DataSets.datasets)
