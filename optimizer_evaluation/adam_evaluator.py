@@ -1,6 +1,7 @@
+import matplotlib.pyplot as plt
+
 import optimizer_evaluation
 from optimizer_evaluation.data_evaluator import Data_Evaluator
-import matplotlib.pyplot as plt
 
 
 class ADAMEvaluator(Data_Evaluator):
@@ -13,7 +14,8 @@ class ADAMEvaluator(Data_Evaluator):
     def evaluate_all(self):
         for name in self.datasets:
 
-            X_train, X_test, y_train, y_test = self.datasets.get_train_test(name)
+            X_train, X_test, y_train, y_test = self.datasets.get_train_test(
+                name)
             nn = self.neural_networks.get(name)
 
             if self.datasets.get(name).type == 'regression':
@@ -21,17 +23,17 @@ class ADAMEvaluator(Data_Evaluator):
                 metrics = ['mae']
             else:
                 loss = 'binary_crossentropy'
-                metrics=['accuracy']
+                metrics = ['accuracy']
 
             nn.compile(loss=loss,
-                       optimizer= ADAMEvaluator.optimizer,
+                       optimizer=ADAMEvaluator.optimizer,
                        metrics=metrics)
 
-            nn.fit(X_train.values,y_train.values,epochs=20,batch_size=1)
+            nn.fit(X_train.values, y_train.values, epochs=20, batch_size=1)
             predict = nn.predict(X_test.values, batch_size=1)
 
-            
-            fig, ax = plt.subplots(1,1)
-            ax.plot(predict, color='green', marker='o', linestyle= 'dotted')
-            ax.plot(y_test.values, color='blue', marker='o', linestyle= 'dotted')
+            fig, ax = plt.subplots(1, 1)
+            ax.plot(predict, color='green', marker='o', linestyle='dotted')
+            ax.plot(y_test.values, color='blue',
+                    marker='o', linestyle='dotted')
             plt.savefig("docs/"+name+"/"+name+"_test.png")

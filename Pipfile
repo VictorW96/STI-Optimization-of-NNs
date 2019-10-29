@@ -11,6 +11,7 @@ rope = "*"
 pytest = "*"
 pep8 = "*"
 pylama = "*"
+autopep8 = "*"
 
 [packages]
 sklearn = "*"

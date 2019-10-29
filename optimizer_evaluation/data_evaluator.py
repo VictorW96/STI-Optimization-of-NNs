@@ -11,6 +11,6 @@ class Data_Evaluator:
 
     def test_all(self):
         pass
-         
+
     def test(self):
         pass

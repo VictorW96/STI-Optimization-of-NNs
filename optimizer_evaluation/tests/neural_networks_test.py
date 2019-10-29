@@ -13,7 +13,7 @@ nns = NeuralNetworks()
 
 
 def test_add():
-    nns.add('test',model,'classification')
+    nns.add('test', model, 'classification')
 
 
 def test_iter():
