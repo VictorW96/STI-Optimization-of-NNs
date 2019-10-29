@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import json
 
 import optimizer_evaluation
 from optimizer_evaluation.data_evaluator import Data_Evaluator
@@ -30,10 +31,17 @@ class ADAMEvaluator(Data_Evaluator):
                        metrics=metrics)
 
             nn.fit(X_train.values, y_train.values, epochs=20, batch_size=1)
+
+            nn_json = nn.to_json()
+            with open("./res/"+name+".json", "w") as json_file:
+                json_file.write(nn_json)
+
+            nn.save_weights("./res/"+name+".h5")
+
             predict = nn.predict(X_test.values, batch_size=1)
 
             fig, ax = plt.subplots(1, 1)
-            ax.plot(predict, color='green', marker='o', linestyle='dotted')
+            ax.plot(predict, color='green', marker=' ', linestyle='dotted')
             ax.plot(y_test.values, color='blue',
                     marker='o', linestyle='dotted')
             plt.savefig("docs/"+name+"/"+name+"_test.png")

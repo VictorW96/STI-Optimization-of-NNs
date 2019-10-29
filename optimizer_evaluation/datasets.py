@@ -16,7 +16,8 @@ class DataSets:
 
     _data_breast_cancer = skdatasets.load_breast_cancer()
     _X_breast_cancer = pd.DataFrame(
-        data=_data_breast_cancer.data, columns=_data_breast_cancer.feature_names)
+        data=_data_breast_cancer.data, 
+        columns=_data_breast_cancer.feature_names)
     _y_breast_cancer = pd.DataFrame(
         data=_data_breast_cancer.target, columns=['class'])
 
