@@ -3,6 +3,6 @@ python:
   - "3.6"
 install:
   - pip install pipenv
-  - pipenv install
+  - pipenv snyc
 script:
-  - pipenv run python -b pytest
+  - python -b pytest
