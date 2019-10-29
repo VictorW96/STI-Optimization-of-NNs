@@ -4,6 +4,8 @@ from optimizer_evaluation.datasets import DataSets
 from optimizer_evaluation.neural_network import NeuralNetworks
 import matplotlib.pyplot as plt
 
+##
+
 class ADAMEvaluator(Data_Evaluator):
 
 
