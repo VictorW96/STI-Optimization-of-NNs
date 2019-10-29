@@ -7,5 +7,8 @@ class Data_Tester:
         self.neural_networks = NeuralNetworks()
         self.datasets = DataSets()
 
+    def test_all(self):
+        pass
+
     def test(self):
         pass

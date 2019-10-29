@@ -15,16 +15,6 @@ data_breast_cancer = datasets.load_breast_cancer()
 X_breast_cancer = pd.DataFrame(data = data_breast_cancer.data, columns=data_breast_cancer.feature_names)
 y_breast_cancer = pd.DataFrame(data= data_breast_cancer.target, columns = ['class'])
 
-# Boston House data preparation
-
-# feature and target table
-X_y_boston = pd.concat(objs=[X_boston,y_boston] , axis= 1)
-
-# See Correlation of feature and target
-boston_cor = X_y_boston.corr()
-sns.heatmap(boston_cor, annot=True,  cmap=plt.cm.Reds)
-plt.show()
-
 # Neural Network structure
 boston_NN = Sequential()
 boston_NN.add(Dense(units=160, activation='relu', input_shape=(13,)))

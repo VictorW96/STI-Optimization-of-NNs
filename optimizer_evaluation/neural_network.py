@@ -5,16 +5,20 @@ class NeuralNetworks:
     """Key value store for neural networks, 'boston' for example is a sequential neural network for the boston dataset
     """
     _regression_NN_boston = Sequential()
-    _regression_NN_boston .add(Dense(units=160, activation='relu', input_shape=(13,)))
-    _regression_NN_boston .add(Dense(units=64, activation='linear'))
-    _regression_NN_boston .add(Dense(units=1, activation='linear'))
+    _regression_NN_boston.add(Dense(units=160, activation='relu', input_shape=(13,)))
+    _regression_NN_boston.add(Dense(units=64, activation='linear'))
+    _regression_NN_boston.add(Dense(units=1, activation='linear'))
 
-    neural_networks = {'boston': _regression_NN_boston}
+    _classification_NN_breast_cancer = Sequential()
+    _classification_NN_breast_cancer.add(Dense(40, input_shape=(30,), activation='relu'))
+    _classification_NN_breast_cancer.add(Dense(20, activation='relu'))
+    _classification_NN_breast_cancer.add(Dense(1, activation='sigmoid'))
 
     def __init__(self):
-        pass
+        self.neural_networks = {'boston': NeuralNetworks._regression_NN_boston,
+                                'breast_cancer':NeuralNetworks._classification_NN_breast_cancer}
 
-    def add(self,name,  neural_network):
+    def add(self,name,  neural_network, type_rc):
         """add new neural nerwork to the key value store 
         
         Arguments:
@@ -30,19 +34,14 @@ class NeuralNetworks:
             nns = NeuralNetworks()
             nns.add(_regression_NN)
         """
-        NeuralNetworks.neural_networks[name] = neural_network
-
-    def compile(self, name, loss, optimizer, metrics):
-        """compiles the neural network with the given name
-        
-        Arguments:
-            name {string} -- name of the neural network
-            loss {string} -- name of keras objective function, see also keras compile
-            optimizer {string} -- name of keras optimizer, see also keras compile
-            metrics {string[]} -- name of keras metrics, see also keras compile
-        """
-        NeuralNetworks.neural_networks[name].compile(loss=loss, optimizer=optimizer, metrics=[metrics])
+        self.neural_networks[name] = (neural_network, type_rc)
 
     def get(self, name):
-        return NeuralNetworks.neural_networks[name]
+        return self.neural_networks[name]
+
+    def __iter__(self):
+        return iter(self.neural_networks)
+        
+    def __next__(self):
+        return next(self.neural_networks)
 
