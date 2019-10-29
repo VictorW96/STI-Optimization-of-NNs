@@ -1,5 +1,5 @@
-from optimizer_evaluation import adam_tester
+from optimizer_evaluation.adam_tester import ADAMTester
 
 def test_test():
-    at = adam_tester.ADAMTester()
+    at = ADAMTester()
     at.test_all()
