@@ -12,7 +12,7 @@
 
 ## Abstract <a name="Abstract"></a>
 
-This work will focus on explaning the different optimization methods of neural networks and evaluating them on example datasets like the boston house price data. Furthermore this work will give a detailed explanation of the learning process of Neural Networks especially focusing on the Gradient Descent. We will assume some properties about those optimization methods and test those assumptions by evaluating the 
+This work will focus on explaning the different optimization methods of neural networks and evaluating them on example datasets like the boston house price data. Furthermore this work will give a detailed explanation of the learning process of Neural Networks especially focusing on the Gradient Descent. We will assume some properties about those optimization methods and test those assumptions by evaluating the metrics of these neural networks.
 
 ## Visualization <a name="Evaluation"></a>
 
