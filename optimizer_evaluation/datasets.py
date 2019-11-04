@@ -43,7 +43,7 @@ class DataSets:
         Arguments:
             name {string} -- name of dataset  
         """
-        return train_test_split(self.datasets[name].X, self.datasets[name].y, test_size=0.2)
+        return train_test_split(self.datasets[name].X, self.datasets[name].y, test_size=0.2, shuffle=True)
 
     def get(self, name):
         return self.datasets[name]
