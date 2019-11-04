@@ -1,0 +1,16 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{Abbildungsverzeichnis}{5}{section*.4}% 
+\contentsline {section}{Tabellenverzeichnis}{5}{section*.5}% 
+\contentsline {section}{Listingverzeichnis}{5}{section*.6}% 
+\contentsline {section}{Abk\IeC {\"u}rzungsverzeichnis}{5}{section*.7}% 
+\contentsline {section}{\numberline {1}Einleitung}{6}{section.1}% 
+\contentsline {section}{\numberline {2}Hauptabschnitt}{6}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Unterabschnitt 1}{6}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Unterabschnitt 2}{6}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Unterabschnitt 3}{6}{subsection.2.3}% 
+\contentsline {section}{\numberline {3}Weiterer Hauptabschnitt}{6}{section.3}% 
+\contentsline {section}{\numberline {4}Ausblick}{7}{section.4}% 
+\contentsline {section}{\numberline {5}Fazit}{7}{section.5}% 
+\contentsline {section}{Literaturverzeichnis}{10}{lstnumber.2.33}% 
+\contentsline {section}{Anhang}{11}{section*.8}% 
+\contentsline {section}{Eidesstattliche Erkl\IeC {\"a}rung}{12}{figure.3}% 
