@@ -88,155 +88,41 @@
 % für Stichwortverzeichnis
 \usepackage{makeidx}
 
-% für Listings
-\usepackage{listings}
-\lstset{numbers=left, numberstyle=\tiny, numbersep=5pt, keywordstyle=\color{black}\bfseries, stringstyle=\ttfamily,showstringspaces=false,basicstyle=\footnotesize,captionpos=b}
-\lstset{language=java}
-
 % Indexerstellung
 \makeindex
 
-% Abkürzungsverzeichnis
-\usepackage[german]{nomencl}
-\let\abbrev\nomenclature
-
-% Abkürzungsverzeichnis LiveTex Version
-% Titel des Abkürzungsverzeichnisses
-\renewcommand{\nomname}{Abkürzungsverzeichnis}
-% Abstand zwischen Abkürzung und Erläuterung
-\setlength{\nomlabelwidth}{.25\textwidth}
-% Zwischenraum zwischen Abkürzung und Erläuterung mit Punkten
-\renewcommand{\nomlabel}[1]{#1 \dotfill}
-% Variation des Abstandes der einzelnen Abkürzungen zu einander
-\setlength{\nomitemsep}{-\parsep}
-% Index mit Abkürzungen erzeugen
-\makenomenclature
-%\makeglossary
-
-% Abkürzungsverzeichnis TeTEX Version
-% \usepackage[german]{nomencl}
-% \makenomenclature
-% %\makeglossary
-% \renewcommand{\nomname}{Abkürzungsverzeichnis}
-% \AtBeginDocument{\setlength{\nomlabelwidth}{.25\columnwidth}}
-% \renewcommand{\nomlabel}[1]{#1 \dotfill}
-% \setlength{\nomitemsep}{-\parsep}
-
-% Optional: Einzelne Zeilen am Anfang einer Seite unterdrücken (Schusterjungen)
-% \clubpenalty = 10000
-% Optional: Einzelne Zeilen am Ende einer Seite unterdrücken (Hurenkinder)
-% \widowpenalty = 10000
-% \displaywidowpenalty = 10000
 
 \begin{document}
 % hier werden die Trennvorschläge inkludiert
 \input{latex_einstellungen/trennung}
 
-% Schriftart Helvetica verwenden
-%\usepackage{helvet}
-%\renewcommand\familydefault{\sfdefault}
-
 % Titelseite %
 \input{latex_einstellungen/deckblatt}
 
-% römische Numerierung
-%\pagenumbering{arabic}
-
 % 1.5 facher Zeilenabstand
 \onehalfspacing
-
 \newpage
 
 % Einleitung / Abstract
 \input{abstract}
 
-% einfacher Zeilenabstand
-\singlespacing
-
 % Inhaltsverzeichnis anzeigen
 \newpage
 \tableofcontents
-
-% das Abbildungsverzeichnis
-%\newpage
-% Abbildungsverzeichnis soll im Inhaltsverzeichnis auftauchen
-\addcontentsline{toc}{section}{Abbildungsverzeichnis}
-% Verion 1: Abbildungsverzeichnis MIT führender Nummberierung endgueltig anzeigen
-\listoffigures
-
-% Verion 2: Abbildungsverzeichnis OHNE führende Nummberierung endgueltig anzeigen
-%\begingroup
-%\renewcommand\numberline[1]{}
-%\listoffigures
-%\endgroup
-
-
-% das Tabellenverzeichnis
-%\newpage
-% Tabellenverzeichnis soll im Inhaltsverzeichnis auftauchen
-\addcontentsline{toc}{section}{Tabellenverzeichnis}
-% \fancyhead[L]{Abbildungsverzeichnis / Abkürzungsverzeichnis} %Kopfzeile links
-% Tabellenverzeichnis endgültig anzeigen
-\listoftables
-
-%% WORKAROUND für Listings
-%\makeatletter% --> De-TeX-FAQ
-%\renewcommand*{\lstlistoflistings}{%
-%  \begingroup
-%    \if@twocolumn
-%      \@restonecoltrue\onecolumn
-%    \else
-%      \@restonecolfalse
-%    \fi
-%    \lol@heading
-%    \setlength{\parskip}{\z@}%
-%    \setlength{\parindent}{\z@}%
-%    \setlength{\parfillskip}{\z@ \@plus 1fil}%
-%    \@starttoc{lol}%
-%    \if@restonecol\twocolumn\fi
-%  \endgroup
-%}
-%\makeatother% --> \makeatletter
-% das Listingverzeichnis
-%\newpage
-% Listingverzeichnis soll im Inhaltsverzeichnis auftauchen
-\addcontentsline{toc}{section}{Listingverzeichnis}
-\fancyhead[L]{Abbildungs- / Tabellen- / Listingverzeichnis} %Kopfzeile links
-\renewcommand{\lstlistlistingname}{Listingverzeichnis}
-\lstlistoflistings
-%%%%
-
-% das Abkürzungsverzeichnis
-%\newpage
-% Abkürzungsverzeichnis soll im Inhaltsverzeichnis auftauchen
-\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
-% das Abkürzungsverzeichnis entgültige Ausgeben
-\fancyhead[L]{Abkürzungsverzeichnis} %Kopfzeile links
-\input{latex_einstellungen/abkuezungen/abkuerzungen}
-\printnomenclature[3cm]
 
 
 %%%%%%% EINLEITUNG %%%%%%%%%%%%
 \newpage
 \fancyhead[L]{\nouppercase{\leftmark}} %Kopfzeile links
-
-% 1,5 facher Zeilenabstand
 \onehalfspacing
 
-% einzelne Abschnitte
 \input{1_einleitung}
 
-\input{2_kap1}
+\input{2_TheoretischeGrundlagen}
 
-\input{3_kap2}
+\input{3_Evaluation}
 
-%....
-
-\input{7_ausblick}
-
-\input{8_fazit}
-
-\input{beispiel}
+\input{4_Fazit}
 
 % einfacher Zeilenabstand
 \singlespacing
@@ -247,29 +133,9 @@
 \renewcommand\refname{Literaturverzeichnis}
 \bibliography{Hauptdatei}
 
-%% Index soll Stichwortverzeichnis heissen
-% \newpage
-% % Stichwortverzeichnis soll im Inhaltsverzeichnis auftauchen
-% \addcontentsline{toc}{section}{Stichwortverzeichnis}
-% \renewcommand{\indexname}{Stichwortverzeichnis}
-% % Stichwortverzeichnis endgültig anzeigen
-% \printindex
-
-\onehalfspacing
-% evtl. Anhang
-\newpage
-\addcontentsline{toc}{section}{Anhang}
-\fancyhead[L]{Anhang} %Kopfzeile links
-\input{anhang/anhang}
-
 % Eidesstattliche Erklärung
 \newpage
 \addcontentsline{toc}{section}{Eidesstattliche Erklärung}
 \input{erklaerung}
-
-% leere Abschlussseite
-\newpage
-\thispagestyle{empty} % erzeugt Seite ohne Kopf- / Fusszeile
-\mbox{}
 
 \end{document}
