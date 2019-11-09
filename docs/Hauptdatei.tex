@@ -4,6 +4,10 @@
 % Umlaute unter UTF8 nutzen
 \usepackage[utf8]{inputenc}
 
+\usepackage{amsmath}
+\usepackage{cite}
+
+
 % Variablen
 \input{latex_einstellungen/variablen}
 
@@ -21,6 +25,7 @@
 \usepackage[T1]{fontenc}
 
 \usepackage{lmodern}
+
 
 % floatende Bilder ermöglichen
 %\usepackage{floatflt}
@@ -69,27 +74,27 @@
 
 % für Tabellen
 \usepackage{array}
-
-% Runde Klammern für Zitate
-%\usepackage[numbers,round]{natbib}
-
 % Festlegung Art der Zitierung - Havardmethode: Abkuerzung Autor + Jahr
 \bibliographystyle{alphadin}
-
-% Schaltet den zusätzlichen Zwischenraum ab, den LaTeX normalerweise nach einem Satzzeichen einfügt.
-%\frenchspacing
-
 % Paket für Zeilenabstand
 \usepackage{setspace}
-
 % für Bildbezeichner
 \usepackage{capt-of}
-
 % für Stichwortverzeichnis
 \usepackage{makeidx}
+\usepackage{cleveref}
+
+\newtheorem{satz}{Satz}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{beweis}{Beweis}[satz]
+
 
 % Indexerstellung
 \makeindex
+\setlength{\parindent}{0pt}
+
+
+
 
 
 \begin{document}
