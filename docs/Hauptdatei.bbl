@@ -7,9 +7,19 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[{Bur}97]{BL1997}
+\bibitem[{Bur}97]{BurkhardLenze.1997}
 \textsc{{Burkhard Lenze}}:
 \newblock \emph{Einf{\"u}hrung in die Mathematik neuronaler Netze}.
 \newblock Berlin : {Logos Verlag}, 1997
+
+\bibitem[{Mic}]{MichaelNielsen.Juni2019}
+\textsc{{Michael Nielsen}}:
+\newblock \emph{Neural Networks and Deep Learning}.
+\newblock \url{http://neuralnetworksanddeeplearning.com/index.html}
+
+\bibitem[Rud]{Ruder.9152016}
+\textsc{Ruder}, Sebastian:
+\newblock \emph{An overview of gradient descent optimization algorithms}.
+\newblock \url{http://arxiv.org/pdf/1609.04747v2}
 
 \end{thebibliography}

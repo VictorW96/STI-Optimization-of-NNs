@@ -15,5 +15,12 @@
     "python.unitTest.pyTestEnabled": true,
     "python.linting.enabled": false,
     "python.linting.pep8Enabled": false,
-    "python.linting.pylamaEnabled": true
+    "python.linting.pylamaEnabled": true,
+    "spellright.language": [
+        "de"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex"
+    ]
 }
