@@ -12,6 +12,12 @@
 \newblock \emph{Einf{\"u}hrung in die Mathematik neuronaler Netze}.
 \newblock Berlin : {Logos Verlag}, 1997
 
+\bibitem[K{\"o}n02]{Konigsberger.2002}
+\textsc{K{\"o}nigsberger}:
+\newblock \emph{Analysis 2}.
+\newblock {Springer Berlin Heidelberg}, 2002. --
+\newblock ISBN 3540435808
+
 \bibitem[{Mic}]{MichaelNielsen.Juni2019}
 \textsc{{Michael Nielsen}}:
 \newblock \emph{Neural Networks and Deep Learning}.

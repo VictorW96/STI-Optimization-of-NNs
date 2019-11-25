@@ -100,18 +100,24 @@ mittlere quadratische Fehler.
 
 Der Gradient Descent oder zu Deutsch Gradienten Abstiegsverfahren
 ist ein Weg eine Zielfunktion $J(\theta)$ parametrisiert durch $\theta \in \mathbb{R}^n$
-zu minimieren. Man aktualisiert diese Parameter in Richtung des Gradienten
+zu minimieren. Man aktualisiert diese Parameter in Richtung des stärksten Abstiegs
 der Zielfunktion $\nabla_\theta J(\theta)$. Die Lern Rate $\mu$ bestimmt
 dabei die Größe der Aktualisierungsschritte. Das Verfahren folgt 
 also der Richtung des Abstiegs der Oberfläche der Zielfunktion in ein Tal,
 welches ein lokales Minimum
-beschreibt. \cite{Ruder.9152016} 
+beschreibt. \cite{Ruder.9152016} \\
 Im Fall eines neuronalen Netzes ist die Zielfunktion $J(\theta)$ die
 Fehlerfunktion des neuronalen Netzes. 
 
-Das Standard Gradient Descent Verfahren ist das Batch Gradient Descent Verfahren.
-
-
+\begin{definition}
+    \cite{Konigsberger.2002}
+    Der \textbf{Gradient} $\nabla$ der total differenzierbaren Funktion
+    $f:\mathbb{R}^n \rightarrow \mathbb{R}$ im Punkt $a\in\mathbb{R}$ ist im
+    Falle des Standard Skalar Produkt definiert durch:
+    \begin{align}
+        \nabla f := \frac{\partial f}{\partial x_{1}}\hat{e}_{1}+\cdots+\frac{\partial f}{\partial x_{n}}\hat{e}_{n}
+    \end{align}
+\end{definition}
 
 \subsection{Optimisierungsmethoden}\label{Optimisierungsmethoden}
 

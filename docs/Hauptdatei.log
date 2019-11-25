@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  23 NOV 2019 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  25 NOV 2019 21:47
 entering extended mode
 **c:/Users/Victor/PycharmProjects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
 (c:/Users/Victor/PycharmProjects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
@@ -666,7 +666,7 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <12> not available
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 57.
  [5]) (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\3_Evaluation.tex) (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [6] (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl
-Underfull \hbox (badness 1424) in paragraph at lines 16--19
+Underfull \hbox (badness 1424) in paragraph at lines 22--25
 []\T1/lmr/m/sc/12 Michael Niel-sen\T1/lmr/m/n/12 :  \T1/lmr/m/it/12 Neural Net-works and De-ep Lear-ning\T1/lmr/m/n/12 .  []$\T1/lmtt/m/n/12 http : / /
  []
 
@@ -687,17 +687,17 @@ Package rerunfilecheck Info: File `Hauptdatei.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
  ) 
 Here is how much of TeX's memory you used:
- 13041 strings out of 492450
- 231069 string characters out of 3119537
+ 13045 strings out of 492450
+ 231136 string characters out of 3119537
  460700 words of memory out of 3000000
- 17094 multiletter control sequences out of 15000+200000
+ 17095 multiletter control sequences out of 15000+200000
  60701 words of font info for 47 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  45i,16n,56p,10130b,473s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (8 pages, 312139 bytes).
+Output written on c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (8 pages, 316792 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
  107 words of extra memory for PDF output out of 10000 (max. 10000000)
 
