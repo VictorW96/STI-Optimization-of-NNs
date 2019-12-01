@@ -33,7 +33,7 @@ class DataSets:
             name {String} -- name of dataframe 
             X {pandas.DataFrame} -- features as nxn pandas DataFrame
             y {pandas.DataFrame} -- target as nx1 pandas Dataframe
-            type {string} -- [either regression or classification ]
+            type_cr {string} -- [either regression or classification ]
         """
         self.datasets[name] = FeatureTargetData(X, y, type_cr)
 
