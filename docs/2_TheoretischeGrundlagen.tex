@@ -107,19 +107,58 @@ also der Richtung des Abstiegs der Oberfläche der Zielfunktion in ein Tal,
 welches ein lokales Minimum
 beschreibt. \cite{Ruder.9152016} \\
 Im Fall eines neuronalen Netzes ist die Zielfunktion $J(\theta)$ die
-Fehlerfunktion des neuronalen Netzes. 
+Fehlerfunktion des neuronalen Netzes. Wir benötigen also eine Möglichkeit 
+die Richtung des stärksten Abstiegs der Fehlerfunktion zu bestimmen.
 
 \begin{definition}
     \cite{Konigsberger.2002}
     Der \textbf{Gradient} $\nabla$ der total differenzierbaren Funktion
     $f:\mathbb{R}^n \rightarrow \mathbb{R}$ im Punkt $a\in\mathbb{R}$ ist im
-    Falle des Standard Skalar Produkt definiert durch:
+    Falle des Standard Skalar Produkts definiert durch:
     \begin{align}
         \nabla f := \frac{\partial f}{\partial x_{1}}\hat{e}_{1}+\cdots+\frac{\partial f}{\partial x_{n}}\hat{e}_{n}
     \end{align}
 \end{definition}
 
-\subsection{Optimisierungsmethoden}\label{Optimisierungsmethoden}
+In einfachen Worte gefasst, ist der Gradient die Ableitung einer mehrdimensionalen
+Funktion, deren Funktionswerte man sich als Gebirge vorstellen kann.
+Hierbei ist der Gradient in einen Punkt ein Vektor der in die Richtung des 
+stärksten Anstiegs. \\
+Um die Richtung des stärksten Abstiegs zu erhalten, welche wir beim Gradienten
+Abstiegsverfahren benötigen, müssen wir nur den negativen Gradienten berechnen. \\\\
+Mit diesem Wissen können wir nun den Standard gradient descent algorithmus definieren.
+
+\begin{definition}
+    \cite[Kapitel 2.1]{Ruder.9152016}
+    Der sogenannte \textbf{batch gradient descent}, berechnet den Gradienten der 
+    Kostenfunktion für den gesamten Datensatz. Jedes Update der Parameter ist definiert durch
+    \begin{align}
+        \theta = \theta - \mu \cdot \nabla_\theta J(\theta)
+    \end{align}
+\end{definition}
+
+Als Algorithmus würde der batch gradient descent folgendermaßen aussehen.
+
+\begin{lstlisting}[language=Python]
+for i in range(nb_epochs ):
+    params_grad = evaluate_gradient(loss_function , data , params)
+    params = params  - learning_rate * params_grad
+\end{lstlisting}
+
+wobei \texttt{nb\_epochs} die Anzahl der Iterationen beschreibt. 
+Diese Implementierung beschreibt die grundsätzliche Idee aber hat mehrere 
+Nachteile. Da wir den Gradienten für den gesamten Datensatz berechnen ist 
+diese Methode sehr langsam und nicht möglich für Datensätze, die nicht in den 
+Arbeitsspeicher passen. Außerdem konvergiert dieser Algorithmus nur sehr langsam gegen
+ein lokales Minimum.     
+
+\subsection{Optimierungsmethoden}\label{Optimisierungsmethoden}
+
+Im vorherigen Abschnitt haben wir die Grundlagen des Gradienten Abstiegsverfahren
+kennengelernt und gesehen, dass dieses Probleme mit sich bringt. Die folgenden
+Optimierungsmethoden verbessern das grundsätzliche batch gradient descent Verfahren
+in die ein oder andere Richtung.
+
 
 \subsubsection{Stochastic Gradient Descent}\label{Stochastic Gradient Descent}
 
