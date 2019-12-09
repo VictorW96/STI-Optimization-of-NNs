@@ -105,7 +105,7 @@ der Zielfunktion $\nabla_\theta J(\theta)$. Die Lern Rate $\mu$ bestimmt
 dabei die Größe der Aktualisierungsschritte. Das Verfahren folgt 
 also der Richtung des Abstiegs der Oberfläche der Zielfunktion in ein Tal,
 welches ein lokales Minimum
-beschreibt. \cite{Ruder.9152016} \\
+beschreibt. \cite[Kapitel 1]{Ruder.9152016} \\
 Im Fall eines neuronalen Netzes ist die Zielfunktion $J(\theta)$ die
 Fehlerfunktion des neuronalen Netzes. Wir benötigen also eine Möglichkeit 
 die Richtung des stärksten Abstiegs der Fehlerfunktion zu bestimmen.
@@ -133,9 +133,11 @@ Mit diesem Wissen können wir nun den Standard gradient descent algorithmus defi
     Der sogenannte \textbf{batch gradient descent}, berechnet den Gradienten der 
     Kostenfunktion für den gesamten Datensatz. Jedes Update der Parameter ist definiert durch
     \begin{align}
-        \theta = \theta - \mu \cdot \nabla_\theta J(\theta)
+        \theta = \theta - \eta \cdot \nabla_\theta J(\theta)
     \end{align}
+    wobei $\eta$ die Lernrate beschreibt.
 \end{definition}
+
 
 Als Algorithmus würde der batch gradient descent folgendermaßen aussehen.
 
@@ -152,7 +154,7 @@ diese Methode sehr langsam und nicht möglich für Datensätze, die nicht in den
 Arbeitsspeicher passen. Außerdem konvergiert dieser Algorithmus nur sehr langsam gegen
 ein lokales Minimum.     
 
-\subsection{Optimierungsmethoden}\label{Optimisierungsmethoden}
+\subsection{Optimierungsmethoden}\label{Optimierungsmethoden}
 
 Im vorherigen Abschnitt haben wir die Grundlagen des Gradienten Abstiegsverfahren
 kennengelernt und gesehen, dass dieses Probleme mit sich bringt. Die folgenden
@@ -161,6 +163,41 @@ in die ein oder andere Richtung.
 
 
 \subsubsection{Stochastic Gradient Descent}\label{Stochastic Gradient Descent}
+
+\begin{definition}
+    \cite[Kapitel 2.2]{Ruder.9152016}
+    Der Aktualisierungsschritt des \textbf{stochastic gradient descent} ist definiert durch 
+    \begin{align}
+        \theta = \theta - \eta \cdot \nabla_\theta J(\theta;x^{(i)};y^{(i)})
+    \end{align}
+\end{definition}
+
+Der Unterschied zum \textbf{batch gradient descent} ist nur, dass der Aktualisierungsschritt
+für jedes einzelne Datum ausgeführt wird. Das macht den 
+Algorithmus wesentlich schneller, aber lässt ihn ebenfalls 
+stärker schwanken, während er ein lokales Minimum sucht. Dies kann
+positiv wie negativ sein, da eine solche Schwankung 
+den Algorithmus Ebenen schneller überwinden lässt, aber manchmal
+auch Minima überspringen lässt. Um eine gut Konvergenz zu gewährleisten,
+erweitert man den Algorithmus noch um zwei Eigenschaften.
+
+\begin{itemize}
+    \item Die $x^{(i)}, y^{(y)}$ werden jede Iteration zufällig angeordnet
+    \item Die Lernrate $\eta$ wird linear verkleinert. 
+\end{itemize}
+
+Der stochastic gradient descent kann durch folgende Eigenschaft noch 
+erweitert werden.
+
+\begin{align}
+    \theta = \theta - \eta \cdot \nabla_\theta J(\theta;x^{(i:i+n)};y^{(i:i+n)})
+\end{align}
+
+Nun wird nicht mehr für jedes einzelne Datum der Gradient berechnet, sondern
+für einen Teilmenge der Größe $n$. In mancher Literatur, wird 
+dieser Algorithmus noch einmal extra als \textbf{Mini-batch gradient descent} benannt.
+\cite[Kapitel 2.3]{Ruder.9152016}. In den Implementierungen wird hier jedoch meist 
+keine Unterscheidung mehr getroffen. 
 
 \subsubsection{Adagrad}\label{Adagrad}
 

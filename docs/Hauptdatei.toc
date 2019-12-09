@@ -1,13 +1,13 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Einleitung}{4}{section.1}% 
-\contentsline {section}{\numberline {2}Theoretische Grundlagen}{4}{section.2}% 
-\contentsline {subsection}{\numberline {2.1}Neuronale Netze}{4}{subsection.2.1}% 
-\contentsline {subsection}{\numberline {2.2}Gradient Descent}{6}{subsection.2.2}% 
-\contentsline {subsection}{\numberline {2.3}Optimierungsmethoden}{7}{subsection.2.3}% 
-\contentsline {subsubsection}{\numberline {2.3.1}Stochastic Gradient Descent}{7}{subsubsection.2.3.1}% 
-\contentsline {subsubsection}{\numberline {2.3.2}Adagrad}{7}{subsubsection.2.3.2}% 
-\contentsline {subsubsection}{\numberline {2.3.3}Adam}{7}{subsubsection.2.3.3}% 
-\contentsline {section}{\numberline {3}Evaluation}{7}{section.3}% 
-\contentsline {section}{\numberline {4}Fazit}{7}{section.4}% 
-\contentsline {section}{Literaturverzeichnis}{8}{section.4}% 
-\contentsline {section}{Eidesstattliche Erklärung}{9}{section*.4}% 
+\contentsline {section}{\numberline {1}Einleitung}{4}{section.1}%
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Neuronale Netze}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Gradient Descent}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Optimierungsmethoden}{7}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Stochastic Gradient Descent}{7}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Adagrad}{7}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Adam}{7}{subsubsection.2.3.3}%
+\contentsline {section}{\numberline {3}Evaluation}{7}{section.3}%
+\contentsline {section}{\numberline {4}Fazit}{7}{section.4}%
+\contentsline {section}{Literaturverzeichnis}{8}{section.4}%
+\contentsline {section}{Eidesstattliche Erklärung}{9}{section*.4}%
