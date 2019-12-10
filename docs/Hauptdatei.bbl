@@ -12,6 +12,11 @@
 \newblock \emph{Einf{\"u}hrung in die Mathematik neuronaler Netze}.
 \newblock Berlin : {Logos Verlag}, 1997
 
+\bibitem[{Fra}]{FrancoisChollet.}
+\textsc{{Fran{\c{c}}ois Chollet}}:
+\newblock \emph{Keras Documentation}.
+\newblock \url{https://keras.io/}
+
 \bibitem[K{\"o}n02]{Konigsberger.2002}
 \textsc{K{\"o}nigsberger}:
 \newblock \emph{Analysis 2}.

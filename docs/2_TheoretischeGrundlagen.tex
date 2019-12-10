@@ -37,7 +37,7 @@ dass sie einen möglichst gute Vorhersage treffen.
 
 Im Folgenden soll nun der Begriff des Neurons formalisiert 
 werden, um die Verbesserungsmöglichkeiten des Gradienten
-Verfahrens in Abschnitt \ref{Optimisierungsmethoden} 
+Verfahrens in Abschnitt \ref{Optimierungsmethoden} 
 nachvollziehen zu können.
 
 \begin{definition}
@@ -106,9 +106,15 @@ dabei die Größe der Aktualisierungsschritte. Das Verfahren folgt
 also der Richtung des Abstiegs der Oberfläche der Zielfunktion in ein Tal,
 welches ein lokales Minimum
 beschreibt. \cite[Kapitel 1]{Ruder.9152016} \\
+
 Im Fall eines neuronalen Netzes ist die Zielfunktion $J(\theta)$ die
-Fehlerfunktion des neuronalen Netzes. Wir benötigen also eine Möglichkeit 
-die Richtung des stärksten Abstiegs der Fehlerfunktion zu bestimmen.
+Fehlerfunktion des neuronalen Netzes. 
+Wir brauchen einen solchen Algorithmus, da durch die Aktivierungsfunktion der Neuronen
+wie in \ref{Neuronale Netze} beschrieben, die Fehlerfunktion nichtlinear wird und somit
+die Minima sich nicht mehr analytisch berechnen lassen.
+Um die Richtung des stärksten Abstiegs der Fehlerfunktion zu bestimmen, benötigen
+wir den Gradienten.
+
 
 \begin{definition}
     \cite{Konigsberger.2002}
@@ -135,7 +141,7 @@ Mit diesem Wissen können wir nun den Standard gradient descent algorithmus defi
     \begin{align}
         \theta = \theta - \eta \cdot \nabla_\theta J(\theta)
     \end{align}
-    wobei $\eta$ die Lernrate beschreibt.
+    wobei $\eta$ die Lern Geschwindigkeit beschreibt.
 \end{definition}
 
 
@@ -152,7 +158,13 @@ Diese Implementierung beschreibt die grundsätzliche Idee aber hat mehrere
 Nachteile. Da wir den Gradienten für den gesamten Datensatz berechnen ist 
 diese Methode sehr langsam und nicht möglich für Datensätze, die nicht in den 
 Arbeitsspeicher passen. Außerdem konvergiert dieser Algorithmus nur sehr langsam gegen
-ein lokales Minimum.     
+ein lokales Minimum. Zusätzlich ist die Wahl der perfekten Lern Geschwindigkeit oft
+schwierig. \\
+
+Zusätzlich benötigt man den Backpropagation Algorithmus um dieses Verfahren auf
+ein gesamtes neuronales Netz anzuwenden. Dieser ist aber ebenfalls sehr komplex
+und wird deshalb hier nicht behandelt. Er kann in \cite[Kapitel 2]{MichaelNielsen.Juni2019}
+nachgelesen werden.
 
 \subsection{Optimierungsmethoden}\label{Optimierungsmethoden}
 
@@ -183,7 +195,7 @@ erweitert man den Algorithmus noch um zwei Eigenschaften.
 
 \begin{itemize}
     \item Die $x^{(i)}, y^{(y)}$ werden jede Iteration zufällig angeordnet
-    \item Die Lernrate $\eta$ wird linear verkleinert. 
+    \item Die Lern Geschwindigkeit $\eta$ wird linear verkleinert. 
 \end{itemize}
 
 Der stochastic gradient descent kann durch folgende Eigenschaft noch 
@@ -197,8 +209,33 @@ Nun wird nicht mehr für jedes einzelne Datum der Gradient berechnet, sondern
 für einen Teilmenge der Größe $n$. In mancher Literatur, wird 
 dieser Algorithmus noch einmal extra als \textbf{Mini-batch gradient descent} benannt.
 \cite[Kapitel 2.3]{Ruder.9152016}. In den Implementierungen wird hier jedoch meist 
-keine Unterscheidung mehr getroffen. 
+keine Unterscheidung mehr getroffen. \cite{FrancoisChollet.}
 
 \subsubsection{Adagrad}\label{Adagrad}
+
+Der Adagrad Algorithmus erweitert den Stochastic Gradient Descent noch weiter.
+Bisher wurde die Lern Geschwindigkeit $\eta$ entweder konstant gelassen oder linear verkleinert.
+Die Lern Geschwindigkeit hat somit keinen Bezug auf die Trainingsdaten. Hier setzt Adagrad an.
+Er verändert die Lern Geschwindigkeit im Verhältnis zur Dichte des jeweiligen Parameters.
+
+Deshalb hängt der Algorithmus diesmal auch von jedem einzelnen Elemente von $\theta$,
+ bezeichnet als $\theta_i$ ab.
+ 
+\begin{definition}
+    \cite[Kapitel 4.3]{Ruder.9152016}
+    Der \textbf{Adagrad} Algorithmus ist definiert durch den Aktualisierungsschritt
+    \begin{align}
+        \theta_{t+1,i} = \theta_{t,i} - \frac{\eta}{\sqrt{G_{t,ii}+\epsilon}} \cdot g_{t,i}
+    \end{align}
+    wobei $g_{t,i}$ definiert ist durch
+    \begin{align}
+        g_{t,i} = \nabla_{\theta_t} J(\theta_{t,i})
+    \end{align}
+    und $G_t \in R^{d\times d}$ ist eine diagonal Matrix, wobei die Diagonalelemente $i,i$, die 
+    Summe der Quadrate der Gradienten zum zugehörigen Parameter $\theta_i$ bis zum Zeitpunkt
+    t sind und $\epsilon > 0$ 
+    
+\end{definition}
+
 
 \subsubsection{Adam}\label{Adam}
