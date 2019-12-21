@@ -240,5 +240,12 @@ Deshalb hängt der Algorithmus diesmal auch von jedem einzelnen Elemente von $\t
 Dies bringt eine große Erleichterung im Vergleich zu den bisherigen Algorithmen.
 Durch die automatische und variable Anpassung der Lern Geschwindigkeit gewinnt man 
 eine einfachere Implementierung und bessere Ergebnisse. 
+\\\\
+Adagrad hat jedoch einen Nachteil, durch die quadrierten summierten Gradienten
+unter dem Bruch konvergiert die Veränderung der Parameter gegen null.
+Deshalb kann Adagrad situationsbedingt auch schlechter als 
+die bisherig vorgestellten Algorithmen sein. 
 
 \subsubsection{Adam}\label{Adam}
+\cite{DiederikP.KingmaandJimmyLeiBa.2015}
+Adaptive Moment Estimation (Adam) ist ein Weiterer Alg
