@@ -3,7 +3,7 @@ import sklearn.datasets as skdatasets
 from optimizer_evaluation.featuretarget import FeatureTargetData
 from sklearn.model_selection import train_test_split
 import optimizer_evaluation
-
+from sklearn import preprocessing
 
 class DataSets:
     """DataSets is a key value save for Data Sets. Standard Sets are
@@ -14,10 +14,15 @@ class DataSets:
                              columns=_data_boston.feature_names)
     _y_boston = pd.DataFrame(data=_data_boston.target, columns=['price'])
 
+    _X_boston = pd.DataFrame(data=preprocessing.scale(_X_boston), columns=_X_boston.columns)
+
     _data_breast_cancer = skdatasets.load_breast_cancer()
     _X_breast_cancer = pd.DataFrame(
         data=_data_breast_cancer.data, 
         columns=_data_breast_cancer.feature_names)
+
+    _X_breast_cancer =pd.DataFrame(data=preprocessing.scale(_X_breast_cancer), columns=_X_breast_cancer.columns)
+    
     _y_breast_cancer = pd.DataFrame(
         data=_data_breast_cancer.target, columns=['class'])
 
