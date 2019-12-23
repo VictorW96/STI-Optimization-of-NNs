@@ -248,4 +248,19 @@ die bisherig vorgestellten Algorithmen sein.
 
 \subsubsection{Adam}\label{Adam}
 \cite{DiederikP.KingmaandJimmyLeiBa.2015}
-Adaptive Moment Estimation (Adam) ist ein Weiterer Alg
+Adaptive Moment Estimation (Adam) ist ein Weiterer Algorithmus, 
+der sich wie Adagrad adaptiv an den jeweiligen Parameter anpasst.
+Er versucht aber gleichzeitig das Problem der summierten Gradienten 
+zu umgehen. 
+
+\begin{definition}
+    Der \textbf{ADAM} Algorithmus ist definiert durch
+    den Aktualisierungsschritt
+    \begin{align}
+        \theta_{t+1} = \theta_t +\frac{\eta}{\sqrt{\hat{v}_t}+\epsilon}\hat{m}_t
+    \end{align}
+    wobei 
+    \begin{align}
+        \hat{m}_t = \beta_1
+    \end{align}
+\end{definition}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  12 DEC 2019 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  23 DEC 2019 18:33
 entering extended mode
 **c:/Users/Victor/PycharmProjects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
 (c:/Users/Victor/PycharmProjects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
@@ -722,7 +722,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--248
 
  []
 
-) (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\3_Evaluation.tex) (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [8] [9] (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl
+
+Overfull \hbox (2.76591pt too wide) in paragraph at lines 257--259
+[]\T1/lmr/m/it/12 Der \T1/lmr/bx/it/12 ADAM \T1/lmr/m/it/12 Al-go-rith-mus ist de-fi-niert durch den Ak-tua-li-sie-rungs-schritt 
+ []
+
+[8]) (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\3_Evaluation.tex) (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [9] (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl
 Underfull \hbox (badness 1424) in paragraph at lines 32--35
 []\T1/lmr/m/sc/12 Michael Niel-sen\T1/lmr/m/n/12 :  \T1/lmr/m/it/12 Neural Net-works and De-ep Lear-ning\T1/lmr/m/n/12 .  []$\T1/lmtt/m/n/12 http : / /
  []
@@ -744,17 +749,17 @@ Package rerunfilecheck Info: File `Hauptdatei.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 15230 strings out of 492450
- 258926 string characters out of 3119537
+ 15233 strings out of 492450
+ 258964 string characters out of 3119537
  638413 words of memory out of 3000000
  19243 multiletter control sequences out of 15000+200000
  64010 words of font info for 49 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  45i,16n,56p,10130b,1306s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (11 pages, 382042 bytes).
+Output written on c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (11 pages, 384377 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
  107 words of extra memory for PDF output out of 10000 (max. 10000000)
 
