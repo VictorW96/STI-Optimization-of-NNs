@@ -261,6 +261,20 @@ zu umgehen.
     \end{align}
     wobei 
     \begin{align}
-        \hat{m}_t = \beta_1
+        \hat{m}_t = \frac{\beta_1 m_{t-1} + (1- \beta_1) g_t}{1-\beta^t_1}
     \end{align}
+    und
+    \begin{align}
+        \hat{v}_t = \frac{\beta_2 v_{t-1} + (1- \beta_2) g_t^2}{1-\beta^t_1}
+    \end{align}
+    wobei $\hat{m_t}$ den Mittelwert des Gradienten über die Zeit beschreibt
+    und $\hat{v_t}$ die Varianz. 
+    $\beta_1$ und $\beta_2$ sind dabei Zerfall Raten, die bestimmen,
+    wieviel Einfluss die vergangenen Gradienten auf den neuen Wert nehmen.
 \end{definition}
+
+Adam ist deswegen ein sehr beliebter Optimierungsalgorithmus, da er nicht nur 
+adaptiv für jeden einzelnen Parameter arbeitet, sondern durch die Anpassung mit 
+Mittelwert und Varianz der vergangenen Gradienten statistisches Wissen über
+die Beschaffenheit der Oberfläche mit einbringt.
+

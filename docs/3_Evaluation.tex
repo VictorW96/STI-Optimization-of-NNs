@@ -1,1 +1,78 @@
 \section{Evaluation}\label{Evaluation}
+
+In diesem Kapitel wollen wir uns jetzt mit der Analyse der einzelnen 
+Optimierungsmethoden beschäftigen. Mithilfe des vorherigen Kapitel wollen
+wir nachweisen, dass ein theoretisch besserer Algorithmus auch wirklich besser 
+arbeitet. Was in diesem Fall besser bedeutet soll ebenfalls geklärt werden.
+
+\subsection{Test Datensatz} \label{Test Datensatz}
+
+Um ein neuronales Netz zu bewerten, brauchen wir zunächst einige Test Daten,
+hierbei werden die beiden frei verfügbaren Datensätze, der \textit{Boston House Price}
+Datensatz und der \textit{Breast Cancer} Datensatz. Beide sind im \textit{scikit-learn}
+Paket \cite{scikit-learn} enthalten. 
+
+\subsubsection{Boston House Price} \label{Boston House Price}
+
+Der \textit{Boston House Price} Datensatz besteht aus einem Regressionsproblem.
+Das bedeutet, dass wir eine reelle Zahl mit unserem Netz voraussagen wollen, nämlich den
+Preis eines Hauses in Boston. Damit das das  Netz lernen kann gibt es einige 
+explanatorische Variablen wie unter anderem
+
+\begin{itemize}
+    \item \textbf{CRIM}: Die Verbrechensrate pro Kopf.
+    \item \textbf{RM}: Die Anzahl der Räume im Haus.
+    \item \textbf{TAX}: Steuer die auf das Grundstück gezahlt werden muss.
+    \item \textbf{DIS}: gewichteter Abstand zum Zentrum von Boston. 
+\end{itemize}
+
+Mit diesen, insgesamt 13 Hilfsvariablen soll das Netz den Haus Preis voraussagen.
+
+\begin{figure}[htbp] 
+    \centering
+       \includegraphics[width=1.0\textwidth]{abb/BostonBeispiel.PNG}
+    \caption{Beispiel des Boston Datensatzes}
+    \label{fig:Bild1}
+\end{figure}
+
+
+\subsubsection{Breast Cancer} \label{Breast Cancer}
+
+Der \textit{Breast Cancer} Datensatz hingegen besteht aus einem binären Klassifikationsproblem.
+Das bedeutet, dass das Netz nur ``ja'' oder ``nein'' kodiert als eins oder null, voraussagen
+soll. Hierbei bedeutet ein Ja, dass diese Person Brustkrebs hat. Hier gibt es 
+wieder einige explanatorische Variablen, die dem Netz helfen sollen zu lernen.
+Diese sind Eigenschaften des Nukleus einer entommenen Brustzelle
+
+
+\begin{itemize}
+    \item \textbf{radius}: Radius des Nukleus
+    \item \textbf{texture}: Standardabweichung der Graustufenwerte
+    \item \textbf{symmetry}: Symmetrie des Nukleus
+    \item \textbf{smoothness}: Lokale Abweichung der Radius Länge
+\end{itemize}
+
+Insgesamt besteht der Datensatz aus 30 solchen Variablen.
+
+\begin{figure}[htbp] 
+    \centering
+       \includegraphics[width=1.0\textwidth]{abb/BreastCancerBeispiel.PNG}
+    \caption{Beispiel des Breast Caner Datensatzes}
+    \label{fig:Bild1}
+\end{figure}
+
+\subsection{Metrik} \label{Metrik}
+
+Bevor wir mit dem Vergleich der verschiedenen Optimierungsmethoden der Gradienten
+beginnen können, brauchen wir ein Maß für die Güte eines Ergebnisses. 
+Dafür müssen wir eine Metrik definieren. Sinnvoll ist es ein neuronales Netz
+daran zu messen, wieviel es richtig bewertet hat. Richtig ist im Falle des \textit{Breast Cancer}
+Datensatzes einfach ob das Netz ja zu ja und nein zu nein gesagt hat. Im Falle 
+des \textit{Boston House Price} Datensatzes ist richtig, wenn der Abstand vom
+vorhergesagten zum echten Preis möglichst klein ist. Dies gibt uns eine 
+Vielzahl von Metriken die diese Voraussetzungen erfüllen.  
+
+
+\subsection{Programm und Frameworks} \label{Programm und Frameworks}
+
+\subsection{Auswertung} \label{Auswertung}

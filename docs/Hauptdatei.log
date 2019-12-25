@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  23 DEC 2019 18:33
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.8)  21 DEC 2019 19:03
->>>>>>> 119d976904b77e1af8e700f5d8b92f1e47f8aba5
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.8)  25 DEC 2019 13:55
 entering extended mode
 **c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
 (c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
@@ -499,7 +495,14 @@ Package cleveref Info: `listings' support loaded on input line 3131.
 
 
 Writing index file Hauptdatei.idx
-(c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.aux)
+(c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.aux
+
+LaTeX Warning: Label `fig:Bild1' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild1@cref' multiply defined.
+
+)
 \openout1 = `Hauptdatei.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
@@ -595,7 +598,7 @@ LaTeX Info: Redefining \nameref on input line 129.
 \openout5 = `Hauptdatei.out'.
 
  (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\latex_einstellungen/trennung.tex) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\latex_einstellungen/deckblatt.tex
-<abb/FHRO_Logo.PNG, id=50, 617.9085pt x 169.8345pt>
+<abb/FHRO_Logo.PNG, id=74, 617.9085pt x 169.8345pt>
 File: abb/FHRO_Logo.PNG Graphic file (type png)
 <use abb/FHRO_Logo.PNG>
 Package pdftex.def Info: abb/FHRO_Logo.PNG  used on input line 6.
@@ -644,7 +647,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout6 = `Hauptdatei.toc'.
 
  [3] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\1_einleitung.tex) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\2_TheoretischeGrundlagen.tex
-<abb/Feed_forward_neural_net.png, id=87, 381.425pt x 441.65pt>
+<abb/Feed_forward_neural_net.png, id=117, 381.425pt x 441.65pt>
 File: abb/Feed_forward_neural_net.png Graphic file (type png)
 <use abb/Feed_forward_neural_net.png>
 Package pdftex.def Info: abb/Feed_forward_neural_net.png  used on input line 26.
@@ -680,60 +683,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--248
 
  []
 
-<<<<<<< HEAD
 
 Overfull \hbox (2.76591pt too wide) in paragraph at lines 257--259
 []\T1/lmr/m/it/12 Der \T1/lmr/bx/it/12 ADAM \T1/lmr/m/it/12 Al-go-rith-mus ist de-fi-niert durch den Ak-tua-li-sie-rungs-schritt 
  []
 
-[8]) (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\3_Evaluation.tex) (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [9] (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl
-=======
-) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\3_Evaluation.tex) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [8] [9] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl
->>>>>>> 119d976904b77e1af8e700f5d8b92f1e47f8aba5
-Underfull \hbox (badness 1424) in paragraph at lines 32--35
-[]\T1/lmr/m/sc/12 Michael Niel-sen\T1/lmr/m/n/12 :  \T1/lmr/m/it/12 Neural Net-works and De-ep Lear-ning\T1/lmr/m/n/12 .  []$\T1/lmtt/m/n/12 http : / /
- []
-
-) [10] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\erklaerung.tex
+[8]) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\3_Evaluation.tex [9]
+<abb/BostonBeispiel.PNG, id=199, 475.7775pt x 85.06781pt>
+File: abb/BostonBeispiel.PNG Graphic file (type png)
+<use abb/BostonBeispiel.PNG>
+Package pdftex.def Info: abb/BostonBeispiel.PNG  used on input line 33.
+(pdftex.def)             Requested size: 441.01773pt x 78.85652pt.
+<abb/BreastCancerBeispiel.PNG, id=200, 529.22719pt x 102.3825pt>
+File: abb/BreastCancerBeispiel.PNG Graphic file (type png)
+<use abb/BreastCancerBeispiel.PNG>
+Package pdftex.def Info: abb/BreastCancerBeispiel.PNG  used on input line 59.
+(pdftex.def)             Requested size: 441.01773pt x 85.31801pt.
+ [10 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/BostonBeispiel.PNG> <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/BreastCancerBeispiel.PNG>]) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [11] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl) [12] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\erklaerung.tex
 Overfull \hbox (45.09023pt too wide) detected at line 23
 []
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
- [11]
+ [13]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `Hauptdatei.out' has not changed.
-(rerunfilecheck)             Checksum: 958B921D647E30462460FFACF1336B7B;761.
+(rerunfilecheck)             Checksum: A3DAFF4AB236A3ACAF7A84C6DE6CD624;1193.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 15233 strings out of 492450
- 258964 string characters out of 3119537
- 638413 words of memory out of 3000000
- 19243 multiletter control sequences out of 15000+200000
- 64010 words of font info for 49 fonts, out of 3000000 for 9000
- 1145 hyphenation exceptions out of 8191
- 45i,16n,56p,10130b,1306s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (11 pages, 384377 bytes).
-=======
- 14104 strings out of 492452
- 223799 string characters out of 3132157
+ 14155 strings out of 492452
+ 224756 string characters out of 3132157
  444597 words of memory out of 3000000
- 18172 multiletter control sequences out of 15000+200000
+ 18206 multiletter control sequences out of 15000+200000
  64010 words of font info for 49 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  44i,16n,53p,8875b,1306s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-ec.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-rm.enc}<D:/Programme/MikTex2.9/fonts/type1/public/lm/lmbx12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmbxi10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmcsc10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmex10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi6.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr17.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr6.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmri12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmssbx10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmsy10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmsy8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmtt10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmtt12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (11 pages, 382100 bytes).
->>>>>>> 119d976904b77e1af8e700f5d8b92f1e47f8aba5
+Output written on c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (13 pages, 413265 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 306 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

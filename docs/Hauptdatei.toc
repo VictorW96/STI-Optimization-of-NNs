@@ -8,6 +8,12 @@
 \contentsline {subsubsection}{\numberline {2.3.2}Adagrad}{8}{subsubsection.2.3.2}% 
 \contentsline {subsubsection}{\numberline {2.3.3}Adam}{8}{subsubsection.2.3.3}% 
 \contentsline {section}{\numberline {3}Evaluation}{9}{section.3}% 
-\contentsline {section}{\numberline {4}Fazit}{9}{section.4}% 
-\contentsline {section}{Literaturverzeichnis}{10}{section.4}% 
-\contentsline {section}{Eidesstattliche Erklärung}{11}{section*.4}% 
+\contentsline {subsection}{\numberline {3.1}Test Datensatz}{9}{subsection.3.1}% 
+\contentsline {subsubsection}{\numberline {3.1.1}Boston House Price}{9}{subsubsection.3.1.1}% 
+\contentsline {subsubsection}{\numberline {3.1.2}Breast Cancer}{10}{subsubsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.2}Metrik}{11}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Programm und Frameworks}{11}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Auswertung}{11}{subsection.3.4}% 
+\contentsline {section}{\numberline {4}Fazit}{11}{section.4}% 
+\contentsline {section}{Literaturverzeichnis}{12}{section.4}% 
+\contentsline {section}{Eidesstattliche Erklärung}{13}{section*.4}% 
