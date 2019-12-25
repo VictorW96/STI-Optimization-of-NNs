@@ -12,8 +12,8 @@
 \contentsline {subsubsection}{\numberline {3.1.1}Boston House Price}{9}{subsubsection.3.1.1}% 
 \contentsline {subsubsection}{\numberline {3.1.2}Breast Cancer}{10}{subsubsection.3.1.2}% 
 \contentsline {subsection}{\numberline {3.2}Metrik}{11}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}Programm und Frameworks}{11}{subsection.3.3}% 
-\contentsline {subsection}{\numberline {3.4}Auswertung}{11}{subsection.3.4}% 
-\contentsline {section}{\numberline {4}Fazit}{11}{section.4}% 
-\contentsline {section}{Literaturverzeichnis}{12}{section.4}% 
-\contentsline {section}{Eidesstattliche Erklärung}{13}{section*.4}% 
+\contentsline {subsection}{\numberline {3.3}Programm und Frameworks}{12}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Auswertung}{12}{subsection.3.4}% 
+\contentsline {section}{\numberline {4}Fazit}{12}{section.4}% 
+\contentsline {section}{Literaturverzeichnis}{13}{section.4}% 
+\contentsline {section}{Eidesstattliche Erklärung}{14}{section*.4}% 

@@ -13,15 +13,27 @@
 \newblock \emph{Einf{\"u}hrung in die Mathematik neuronaler Netze}.
 \newblock Berlin : {Logos Verlag}, 1997
 
+\bibitem[C{\etalchar{+}}15]{chollet2015keras}
+\textsc{Chollet}, Fran\c{c}ois u.\,a.:
+\newblock \emph{Keras}.
+\newblock \url{https://keras.io}, 2015
+
 \bibitem[{Die}15]{DiederikP.KingmaandJimmyLeiBa.2015}
 \textsc{{Diederik P. Kingma and Jimmy Lei Ba}}:
 \newblock \emph{Adam: a Method for Stochastic Optimization}.
 \newblock 2015
 
-\bibitem[{Fra}]{FrancoisChollet.}
-\textsc{{Fran{\c{c}}ois Chollet}}:
-\newblock \emph{Keras Documentation}.
-\newblock \url{https://keras.io/}
+\bibitem[FHK{\etalchar{+}}16]{Fahrmeir.2016}
+\textsc{Fahrmeir}, Ludwig ; \textsc{Heumann}, Christian ;
+  \textsc{K{\"u}nstler}, Rita ; \textsc{Pigeot}, Iris  ; \textsc{Tutz},
+  Gerhard:
+\newblock \emph{Statistik: Der Weg zur Datenanalyse}.
+\newblock 8., {\"u}berarbeitete und erg{\"a}nzte Auflage.
+\newblock Berlin and Heidelberg : {Springer Spektrum}, 2016
+  (Springer-Lehrbuch).
+\newblock \url{http://dx.doi.org/10.1007/978-3-662-50372-0}.
+\newblock \url{http://dx.doi.org/10.1007/978-3-662-50372-0}. --
+\newblock ISBN 9783662503713
 
 \bibitem[K{\"o}n02]{Konigsberger.2002}
 \textsc{K{\"o}nigsberger}:
@@ -44,6 +56,13 @@
 \newblock Scikit-learn: Machine Learning in {P}ython.
 \newblock {In: }\emph{Journal of Machine Learning Research} 12 (2011), S.
   2825--2830
+
+\bibitem[RK04]{Rubinstein.2004}
+\textsc{Rubinstein}, Reuven~Y. ; \textsc{Kroese}, Dirk~P.:
+\newblock \emph{The cross-entropy method: A unified approach to combinatorial
+  optimization, Monte-Carlo Simulation and machine learning}.
+\newblock New York, NY : Springer, 2004 (Information science and statitics). --
+\newblock ISBN 9780387212401
 
 \bibitem[Rud]{Ruder.9152016}
 \textsc{Ruder}, Sebastian:
