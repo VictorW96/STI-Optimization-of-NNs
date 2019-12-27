@@ -41,10 +41,25 @@
 \newblock {Springer Berlin Heidelberg}, 2002. --
 \newblock ISBN 3540435808
 
+\bibitem[McK10]{mckinney-proc-scipy-2010}
+\textsc{McKinney}, Wes:
+\newblock Data Structures for Statistical Computing in Python.
+\newblock {In: }\textsc{Walt}, St\'efan van~d. (Hrsg.) ; \textsc{Millman},
+  Jarrod (Hrsg.): \emph{Proceedings of the 9th Python in Science Conference},
+  2010, S. 51 -- 56
+
 \bibitem[{Mic}]{MichaelNielsen.Juni2019}
 \textsc{{Michael Nielsen}}:
 \newblock \emph{Neural Networks and Deep Learning}.
 \newblock \url{http://neuralnetworksanddeeplearning.com/index.html}
+
+\bibitem[Oli  ]{numpy}
+\textsc{Oliphant}, Travis:
+\newblock \emph{{NumPy}: A guide to {NumPy}}.
+\newblock USA: Trelgol Publishing.
+\newblock \url{http://www.numpy.org/}.
+\newblock \,Version:\,2006--. --
+\newblock [Online; accessed <today>]
 
 \bibitem[PVG{\etalchar{+}}11]{scikit-learn}
 \textsc{Pedregosa}, F. ; \textsc{Varoquaux}, G. ; \textsc{Gramfort}, A. ;

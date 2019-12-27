@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.8)  25 DEC 2019 16:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.8)  27 DEC 2019 11:12
 entering extended mode
 **c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
 (c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
@@ -628,7 +628,7 @@ LaTeX Info: Redefining \nameref on input line 130.
 \openout5 = `Hauptdatei.out'.
 
  (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\latex_einstellungen/trennung.tex) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\latex_einstellungen/deckblatt.tex
-<abb/FHRO_Logo.PNG, id=74, 617.9085pt x 169.8345pt>
+<abb/FHRO_Logo.PNG, id=82, 617.9085pt x 169.8345pt>
 File: abb/FHRO_Logo.PNG Graphic file (type png)
 <use abb/FHRO_Logo.PNG>
 Package pdftex.def Info: abb/FHRO_Logo.PNG  used on input line 6.
@@ -677,7 +677,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout6 = `Hauptdatei.toc'.
 
  [3] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\1_einleitung.tex) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\2_TheoretischeGrundlagen.tex
-<abb/Feed_forward_neural_net.png, id=117, 381.425pt x 441.65pt>
+<abb/Feed_forward_neural_net.png, id=127, 381.425pt x 441.65pt>
 File: abb/Feed_forward_neural_net.png Graphic file (type png)
 <use abb/Feed_forward_neural_net.png>
 Package pdftex.def Info: abb/Feed_forward_neural_net.png  used on input line 26.
@@ -719,12 +719,12 @@ Overfull \hbox (2.76591pt too wide) in paragraph at lines 257--259
  []
 
 [8]) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\3_Evaluation.tex [9]
-<abb/BostonBeispiel.PNG, id=199, 475.7775pt x 85.06781pt>
+<abb/BostonBeispiel.PNG, id=209, 475.7775pt x 85.06781pt>
 File: abb/BostonBeispiel.PNG Graphic file (type png)
 <use abb/BostonBeispiel.PNG>
 Package pdftex.def Info: abb/BostonBeispiel.PNG  used on input line 33.
 (pdftex.def)             Requested size: 441.01773pt x 78.85652pt.
-<abb/BreastCancerBeispiel.PNG, id=200, 529.22719pt x 102.3825pt>
+<abb/BreastCancerBeispiel.PNG, id=210, 529.22719pt x 102.3825pt>
 File: abb/BreastCancerBeispiel.PNG Graphic file (type png)
 <use abb/BreastCancerBeispiel.PNG>
 Package pdftex.def Info: abb/BreastCancerBeispiel.PNG  used on input line 59.
@@ -744,20 +744,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-[11]) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [12] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl) [13] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\erklaerung.tex
+[11] [12]) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [13] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl) [14] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\erklaerung.tex
 Overfull \hbox (45.09023pt too wide) detected at line 23
 []
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
- [14]
+ [15]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
  (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
 Package rerunfilecheck Info: File `Hauptdatei.out' has not changed.
-(rerunfilecheck)             Checksum: A3DAFF4AB236A3ACAF7A84C6DE6CD624;1193.
+(rerunfilecheck)             Checksum: B820BC2E3BFDE257A0C963BC6CCAD85B;1326.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -765,17 +765,17 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 14719 strings out of 492452
- 234753 string characters out of 3132157
+ 14730 strings out of 492452
+ 234894 string characters out of 3132157
  458039 words of memory out of 3000000
- 18751 multiletter control sequences out of 15000+200000
- 64010 words of font info for 49 fonts, out of 3000000 for 9000
+ 18753 multiletter control sequences out of 15000+200000
+ 72542 words of font info for 51 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  44i,16n,53p,8875b,1306s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-ec.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-rm.enc}<D:/Programme/MikTex2.9/fonts/type1/public/lm/lmbx12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmbxi10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmcsc10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmex10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi6.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr17.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr6.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmri12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmssbx10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmsy10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmsy8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmtt10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmtt12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (14 pages, 424551 bytes).
+Output written on c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (15 pages, 431987 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

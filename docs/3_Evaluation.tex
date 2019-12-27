@@ -127,9 +127,47 @@ Im Falle des \textit{Boston House Price} Datensatzes benutzen wir noch den
     \end{align}
 \end{definition}
 
+Dies ist die intuitivere Definition des Fehlers und ist somit geeignet um die
+Optimierungsmethoden zu vergleichen.
 
+Für den \textit{Breast Cancer} Datensatz benutzen wir zusätzlich die \textit{Accuracy},
+um die Ergebnisse des neuronalen Netzes vergleichbarer zu machen.
 
-\subsection{Programm und Frameworks} \label{Programm und Frameworks}
+\begin{definition}
+    Die \textbf{Accuracy} einer Stichprobe der Größe $n$ ist definiert durch 
+    \begin{align}
+        Accuracy = \frac{\text{Anzahl korrekter Voraussagen}}{n}
+    \end{align}
+\end{definition}
+
+Diese ist ebenfalls das intuitivere Verständnis der Güte eines neuronalen Netzes und hilft
+somit bei der Auswertung der Optimierungsalgorithmen.
+
+\subsection{Programm} \label{Programm}
+ 
+Für einen Aufbau eines solchen Netzes und die Anwendung des Gradienten Abstiegsverfahrens
+gibt es bereits verschiedenste Frameworks. Diese stehen vor Allem in \textit{Python} zur
+Verfügung, da diese eine der vorrangigen KI Sprachen ist. Aus diesem Grund 
+wird das folgende Programm für die Auswertung der Optimierungsalgorithmen, auf unseren
+zwei Test Datensätzen, ebenfalls in \textit{Python} implementiert sein. 
+
+\subsubsection{Frameworks}
+
+Um uns die Arbeit zu erleichtern und um die Optimierungsalgorithmen, sowie das 
+neuronale Netz nicht selbst implementieren zu müssen benutzen wir einige Frameworks.
+
+\begin{itemize}
+    \item \textbf{Keras} \cite{chollet2015keras}: Ein Framework, um neuronale Netze durch ein ``Baustein'' artiges 
+        Prinzip aufzubauen. 
+    \item \textbf{Scikit-learn} \cite{scikit-learn}: Ein Framework, welches viele machine learning-
+        sowie Vorverarbeitungsalgorithmen als Funktionsaufruf zur Verfügung stellt.
+    \item \textbf{Pandas} \cite{mckinney-proc-scipy-2010}: Ein Framework, was uns 
+        tabellenartige Datenstrukturen zur Verfügung stellt, welche die Weiterverarbeitung vereinfachen.
+    \item \textbf{Numpy} \cite{numpy}: Ein Framework für wissenschaftliche Berechnungen 
+        in Python, wie zum Beispiel Matrizenmultiplikation.  
+\end{itemize}
+
+\subsubsection{Aufbau} \label{Aufbau}
 
 
 
