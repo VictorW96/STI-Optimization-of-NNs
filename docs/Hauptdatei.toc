@@ -15,7 +15,12 @@
 \contentsline {subsection}{\numberline {3.3}Programm}{12}{subsection.3.3}% 
 \contentsline {subsubsection}{\numberline {3.3.1}Frameworks}{12}{subsubsection.3.3.1}% 
 \contentsline {subsubsection}{\numberline {3.3.2}Aufbau}{13}{subsubsection.3.3.2}% 
-\contentsline {subsection}{\numberline {3.4}Auswertung}{13}{subsection.3.4}% 
-\contentsline {section}{\numberline {4}Fazit}{13}{section.4}% 
-\contentsline {section}{Literaturverzeichnis}{14}{section.4}% 
-\contentsline {section}{Eidesstattliche Erklärung}{15}{section*.4}% 
+\contentsline {subsubsection}{\numberline {3.3.3}Netzstruktur}{14}{subsubsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Auswertung}{15}{subsection.3.4}% 
+\contentsline {subsubsection}{\numberline {3.4.1}Erwartungen}{15}{subsubsection.3.4.1}% 
+\contentsline {subsubsection}{\numberline {3.4.2}Boston House Price Auswertung}{16}{subsubsection.3.4.2}% 
+\contentsline {subsubsection}{\numberline {3.4.3}Breast Cancer Auswertung}{17}{subsubsection.3.4.3}% 
+\contentsline {subsubsection}{\numberline {3.4.4}Vergleich mit der Literatur}{17}{subsubsection.3.4.4}% 
+\contentsline {section}{\numberline {4}Fazit}{17}{section.4}% 
+\contentsline {section}{Literaturverzeichnis}{19}{section.4}% 
+\contentsline {section}{Eidesstattliche Erklärung}{20}{section*.4}% 

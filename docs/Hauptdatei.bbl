@@ -35,6 +35,14 @@
 \newblock \url{http://dx.doi.org/10.1007/978-3-662-50372-0}. --
 \newblock ISBN 9783662503713
 
+\bibitem[GBC16]{Goodfellow.2016}
+\textsc{Goodfellow}, Ian ; \textsc{Bengio}, Yoshua  ; \textsc{Courville},
+  Aaron:
+\newblock \emph{Deep learning}.
+\newblock Cambridge, Massachusetts and London, England : {MIT Press}, 2016
+  \url{http://www.deeplearningbook.org/}. --
+\newblock ISBN 9780262035613
+
 \bibitem[K{\"o}n02]{Konigsberger.2002}
 \textsc{K{\"o}nigsberger}:
 \newblock \emph{Analysis 2}.
