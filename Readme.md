@@ -409,7 +409,7 @@ Insgesamt besteht der Datensatz aus 30 solchen Variablen.
 Datensatzes[]{label="fig:BreastCancerBeispiel"}](docs/abb/BreastCancerBeispiel.PNG){#fig:BreastCancerBeispiel
 width="100%"}
 
-Metrik {#Metrik}
+Metrik 
 ------
 
 Bevor wir mit dem Vergleich der verschiedenen Optimierungsmethoden der
