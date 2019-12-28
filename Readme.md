@@ -1,6 +1,6 @@
 ---
 bibliography:
-- Hauptdatei.bib
+- docs/Hauptdatei.bib
 ---
 
 ![image](docs/abb/FHRO_Logo.PNG)
@@ -11,9 +11,9 @@ Fakultät für Informatik
 
 
 
-**Seminararbeit**\
+**Seminararbeit**
 
-** im Masterstudiengang Informatik - Schwerpunkt Software Engineering**
+**im Masterstudiengang Informatik - Schwerpunkt Software Engineering**
 
 
 
