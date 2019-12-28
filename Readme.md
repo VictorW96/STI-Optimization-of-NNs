@@ -26,7 +26,7 @@ Fakultät für Informatik
   **Autor:**            Victor Wolf / Victor.Wolf\@stud.fh-rosenheim.de   
                         MatNr. 845615                                     
                                                                           
-  **Version vom:**                                                        
+  **Version vom:**      28.12.2019                                                  
                                                                           
   **Betreuer:**         Prof. Dr. Holaubek                                
   ------------------ -- ------------------------------------------------- --
