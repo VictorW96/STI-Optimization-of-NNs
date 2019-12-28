@@ -1,32 +1,33 @@
 \section*{Zusammenfassung}
 
 Diese Arbeit wird sich mit verschiedenen 
-Optimierungsmethoden neuronaler Netze beschäftigen
-und Sie auf Basis von Beispiel Datensätzen evaluieren,
-wie dem Boston House Price Datensatz.
+Optimierungsalgorithmen des Gradienten Abstiegsverfahren bei neuronalen Netzen beschäftigen
+und diese auf Basis von Beispieldatensätzen evaluieren.
 Hierbei wird eine Metrik definiert um die Ergebnis der einzelnen 
 Optimierungsmethode zu vergleichen. 
 
-Eine Optimierungsmethode ist eine Möglichkeit
+Ein Optimierungsalgorithmus ist eine Möglichkeit
 die Konvergenz der Fehlerfunktion $J(\theta)$ des neuronalen Netzes
 beim Lernen zu verbessern. 
- 
+
 Hierbei wird auf den Lern Prozess des Neuronalen
 Netzes eingegangen. Besonderen Fokus wird der ``Gradient Descent'',
 zu Deutsch Gradienten Abstiegsverfahren, einnehmen, da dies die Grundlage
 des Lernens darstellt. Dieser sucht im mehrdimensionalen Raum
-die Minima der nichtlinearen Fehlerfunktion und
-es gibt verschiedene Möglichkeiten diese Suche zu verbessern.   
+die Minima der nichtlinearen Fehlerfunktion. Die Verbesserung 
+dieser Suche machen sich die Optimierungsalgorithmen zur Aufgabe.  
 Nach der theoretischen Aufarbeitung,
 werden wir ein paar Eigenschaften über
 diese Optimierungsmethoden annehmen
-und diese anhand der Test Daten überprüfen.
+,um diese anhand der Testdaten zu überprüfen und mit der
+Literatur zu vergleichen. 
 
 
 \section*{Abstract}
 
-This work will focus on explaning the different optimization methods of neural networks and evaluating them
-on example datasets like the boston house price data.
+This work will focus on explaning the different optimization methods of the gradient descent
+algorithm of neural networks and evaluating them
+on example datasets.
 We will define a metric to be able to evaluate the performance 
 of the different optimizer.
 
@@ -35,7 +36,9 @@ function $J(\theta)$ of the neural network.
 
 
 Furthermore this work will give a detailed explanation of the learning process of Neural Networks
-especially focusing on the Gradient Descent, which is the foundation of learning in neural networks. This algorithm aims to find local minima in the Hyperplane of the non-linear error function and there are multiple ways to improve its search. 
+especially focusing on the Gradient Descent, which is the foundation of learning in neural networks.
+This algorithm aims to find local minima in the Hyperplane of the non-linear error function. 
+The optimization algorithms aim to improve this search. 
 After the Theory, we will assume some properties about those optimization methods and test those assumptions
-by evaluating the metrics of these neural networks.
-
+by evaluating the metrics of the neural networks. Then we will compare our results to
+the literature

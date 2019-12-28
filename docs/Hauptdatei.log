@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.8)  27 DEC 2019 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.8)  28 DEC 2019 14:02
 entering extended mode
 **c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
 (c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
@@ -675,21 +675,21 @@ File: abb/Feed_forward_neural_net.png Graphic file (type png)
 <use abb/Feed_forward_neural_net.png>
 Package pdftex.def Info: abb/Feed_forward_neural_net.png  used on input line 26.
 (pdftex.def)             Requested size: 176.40439pt x 204.25317pt.
+ [4]
 LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 46.
  (D:\Programme\MikTex2.9\tex/latex/lm\omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 46.
- [4 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/Feed_forward_neural_net.png>]
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 57.
-
+ [5 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/Feed_forward_neural_net.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 101--109
 
  []
 
-[5]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 129--136
 
  []
@@ -701,7 +701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--163
 
  []
 
-[6] [7]
+[7] [8]
 Underfull \hbox (badness 10000) in paragraph at lines 240--248
 
  []
@@ -711,13 +711,14 @@ Overfull \hbox (2.76591pt too wide) in paragraph at lines 257--259
 []\T1/lmr/m/it/12 Der \T1/lmr/bx/it/12 ADAM \T1/lmr/m/it/12 Al-go-rith-mus ist de-fi-niert durch den Ak-tua-li-sie-rungs-schritt 
  []
 
-[8]) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\3_Evaluation.tex [9]
-<abb/BostonBeispiel.PNG, id=234, 475.7775pt x 85.06781pt>
+[9]) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\3_Evaluation.tex
+<abb/BostonBeispiel.PNG, id=233, 475.7775pt x 85.06781pt>
 File: abb/BostonBeispiel.PNG Graphic file (type png)
 <use abb/BostonBeispiel.PNG>
 Package pdftex.def Info: abb/BostonBeispiel.PNG  used on input line 33.
 (pdftex.def)             Requested size: 441.01773pt x 78.85652pt.
-<abb/BreastCancerBeispiel.PNG, id=235, 529.22719pt x 102.3825pt>
+ [10 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/BostonBeispiel.PNG>]
+<abb/BreastCancerBeispiel.PNG, id=241, 529.22719pt x 102.3825pt>
 File: abb/BreastCancerBeispiel.PNG Graphic file (type png)
 <use abb/BreastCancerBeispiel.PNG>
 Package pdftex.def Info: abb/BreastCancerBeispiel.PNG  used on input line 59.
@@ -727,7 +728,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--74
 
  []
 
-[10 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/BostonBeispiel.PNG> <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/BreastCancerBeispiel.PNG>]
+[11 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/BreastCancerBeispiel.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 91--95
 
  []
@@ -737,47 +738,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
 
  []
 
-[11] [12]
-<abb/STI_fertig.png, id=269, 402.00188pt x 325.66669pt>
+[12]
+<abb/STI_fertig.png, id=267, 402.00188pt x 325.66669pt>
 File: abb/STI_fertig.png Graphic file (type png)
 <use abb/STI_fertig.png>
 Package pdftex.def Info: abb/STI_fertig.png  used on input line 179.
 (pdftex.def)             Requested size: 441.01773pt x 357.2704pt.
- [13 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/STI_fertig.png>]
+ [13] [14 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/STI_fertig.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 232--244
 
  []
 
-[14]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 245--258
 
  []
 
-[15]
-<abb/boston_score.png, id=307, 223.58531pt x 73.77562pt>
+[16]
+<abb/boston_score.png, id=311, 223.58531pt x 73.77562pt>
 File: abb/boston_score.png Graphic file (type png)
 <use abb/boston_score.png>
 Package pdftex.def Info: abb/boston_score.png  used on input line 304.
 (pdftex.def)             Requested size: 264.61333pt x 87.32124pt.
-<abb/VisualizationDivergenz.PNG, id=309, 462.22687pt x 360.59718pt>
+<abb/VisualizationDivergenz.PNG, id=313, 462.22687pt x 360.59718pt>
 File: abb/VisualizationDivergenz.PNG Graphic file (type png)
 <use abb/VisualizationDivergenz.PNG>
 Package pdftex.def Info: abb/VisualizationDivergenz.PNG  used on input line 315.
 (pdftex.def)             Requested size: 264.61333pt x 206.43388pt.
- [16 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/boston_score.png> <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/VisualizationDivergenz.PNG>]
-<abb/breast_cancer_score.PNG, id=322, 227.34938pt x 76.78688pt>
+ [17 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/boston_score.png> <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/VisualizationDivergenz.PNG>]
+<abb/breast_cancer_score.PNG, id=326, 227.34938pt x 76.78688pt>
 File: abb/breast_cancer_score.PNG Graphic file (type png)
 <use abb/breast_cancer_score.PNG>
 Package pdftex.def Info: abb/breast_cancer_score.PNG  used on input line 340.
 (pdftex.def)             Requested size: 264.61333pt x 89.37395pt.
-) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [17 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/breast_cancer_score.PNG>] [18] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl) [19] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\erklaerung.tex
+) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [18 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/breast_cancer_score.PNG>] [19] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl) [20] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\erklaerung.tex
 Overfull \hbox (45.09023pt too wide) detected at line 23
 []
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
- [20]
+ [21]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
  (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
@@ -787,17 +788,17 @@ Package rerunfilecheck Info: File `Hauptdatei.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 14819 strings out of 492452
- 236716 string characters out of 3132157
- 460039 words of memory out of 3000000
+ 14820 strings out of 492452
+ 236723 string characters out of 3132157
+ 461039 words of memory out of 3000000
  18811 multiletter control sequences out of 15000+200000
  72542 words of font info for 51 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  44i,16n,53p,8875b,1306s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-ec.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-rm.enc}<D:/Programme/MikTex2.9/fonts/type1/public/lm/lmbx12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmbxi10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmcsc10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmex10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi6.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr17.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr6.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmri12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmssbx10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmsy10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmsy8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmtt10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmtt12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (20 pages, 650975 bytes).
+Output written on c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (21 pages, 652299 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
+ 448 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
  241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

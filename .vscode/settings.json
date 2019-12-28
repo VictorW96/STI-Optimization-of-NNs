@@ -17,7 +17,8 @@
     "python.linting.pycodestyleEnabled": false,
     "python.linting.pylamaEnabled": true,
     "spellright.language": [
-        "de"
+        "de",
+        "en"
     ],
     "spellright.documentTypes": [
         "markdown",
