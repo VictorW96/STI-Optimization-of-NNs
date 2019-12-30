@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.8)  28 DEC 2019 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.8)  30 DEC 2019 12:07
 entering extended mode
 **c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
 (c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
@@ -676,38 +676,38 @@ File: abb/Feed_forward_neural_net.png Graphic file (type png)
 Package pdftex.def Info: abb/Feed_forward_neural_net.png  used on input line 26.
 (pdftex.def)             Requested size: 176.40439pt x 204.25317pt.
  [4]
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 46.
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 48.
  (D:\Programme\MikTex2.9\tex/latex/lm\omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 46.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 57.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 59.
  [5 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/Feed_forward_neural_net.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 101--109
+Underfull \hbox (badness 10000) in paragraph at lines 103--111
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 129--136
+Underfull \hbox (badness 10000) in paragraph at lines 131--138
 
  []
 
 (C:\Users\Victor\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 156--163
+Underfull \hbox (badness 10000) in paragraph at lines 158--165
 
  []
 
 [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 240--248
+Underfull \hbox (badness 10000) in paragraph at lines 242--250
 
  []
 
 
-Overfull \hbox (2.76591pt too wide) in paragraph at lines 257--259
+Overfull \hbox (2.76591pt too wide) in paragraph at lines 259--261
 []\T1/lmr/m/it/12 Der \T1/lmr/bx/it/12 ADAM \T1/lmr/m/it/12 Al-go-rith-mus ist de-fi-niert durch den Ak-tua-li-sie-rungs-schritt 
  []
 
@@ -796,7 +796,7 @@ Here is how much of TeX's memory you used:
  1145 hyphenation exceptions out of 8191
  44i,16n,53p,8875b,1306s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-ec.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-rm.enc}<D:/Programme/MikTex2.9/fonts/type1/public/lm/lmbx12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmbxi10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmcsc10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmex10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi6.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr17.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr6.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmri12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmssbx10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmsy10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmsy8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmtt10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmtt12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (21 pages, 652299 bytes).
+Output written on c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (21 pages, 652408 bytes).
 PDF statistics:
  448 PDF objects out of 1000 (max. 8388607)
  110 named destinations out of 1000 (max. 500000)
