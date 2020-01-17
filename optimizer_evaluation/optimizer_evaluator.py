@@ -27,7 +27,10 @@ def __get_string_optimizer(optimizer):
 
 
 class OptimizerEvaluator(Data_Evaluator):
-    optimizer = {'adam': 'adam', 'sgd': optimizers.SGD(learning_rate=0.05, momentum=0.0, nesterov=False), 'adagrad': optimizers.Adagrad(learning_rate=0.02)}
+    optimizer = {
+    'adam': 'adam',
+    'sgd': optimizers.SGD(learning_rate=0.01, momentum=0.0, nesterov=False),
+    'adagrad': optimizers.Adagrad(learning_rate=0.01)}
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

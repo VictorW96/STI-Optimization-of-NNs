@@ -6,3 +6,7 @@ adagrad,,
 adam,12.933767861010981,2.893939971923828
 SGD,,
 Adagrad,,
+,loss,mae
+adam,10.821326218399347,2.422438859939575
+<keras.optimizers.SGD object at 0x000001D69A1115F8>,,
+<keras.optimizers.Adagrad object at 0x000001D69A111C88>,,
