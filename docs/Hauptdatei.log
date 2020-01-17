@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.11.22)  23 DEC 2019 18:33
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.8)  21 DEC 2019 19:03
->>>>>>> 119d976904b77e1af8e700f5d8b92f1e47f8aba5
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.8)  30 DEC 2019 12:07
 entering extended mode
 **c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
 (c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/Hauptdatei.tex
@@ -168,23 +164,53 @@ LaTeX Info: Redefining \] on input line 2856.
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
+) (C:\Users\Victor\AppData\Roaming\MiKTeX\2.9\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2017/05/24 v1.19 mathematical typesetting tools
+ (D:\Programme\MikTex2.9\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count101
+\calc@Bcount=\count102
+\calc@Adimen=\dimen112
+\calc@Bdimen=\dimen113
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count103
+\calc@Cskip=\skip60
+) (C:\Users\Victor\AppData\Roaming\MiKTeX\2.9\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count104
+\l_MT_multwidth_dim=\dimen114
+\origjot=\skip61
+\l_MT_shortvdotswithinadjustabove_dim=\dimen115
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen116
+\l_MT_above_intertext_sep=\dimen117
+\l_MT_below_intertext_sep=\dimen118
+\l_MT_above_shortintertext_sep=\dimen119
+\l_MT_below_shortintertext_sep=\dimen120
 ) (C:\Users\Victor\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.sty
-\lst@mode=\count101
+\lst@mode=\count105
 \lst@gtempboxa=\box31
 \lst@token=\toks22
-\lst@length=\count102
-\lst@currlwidth=\dimen112
-\lst@column=\count103
-\lst@pos=\count104
-\lst@lostspace=\dimen113
-\lst@width=\dimen114
-\lst@newlines=\count105
-\lst@lineno=\count106
-\lst@maxwidth=\dimen115
+\lst@length=\count106
+\lst@currlwidth=\dimen121
+\lst@column=\count107
+\lst@pos=\count108
+\lst@lostspace=\dimen122
+\lst@width=\dimen123
+\lst@newlines=\count109
+\lst@lineno=\count110
+\lst@maxwidth=\dimen124
  (C:\Users\Victor\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count107
-\lst@skipnumbers=\count108
+\c@lstnumber=\count111
+\lst@skipnumbers=\count112
 \lst@framebox=\box32
 ) (C:\Users\Victor\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
@@ -219,8 +245,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen116
-\Gin@req@width=\dimen117
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
 ) (D:\Programme\MikTex2.9\tex/generic/babel\babel.sty
 Package: babel 2019/09/27 3.34 The Babel package
  (D:\Programme\MikTex2.9\tex/generic/babel\switch.def
@@ -237,10 +263,10 @@ Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthograp
 Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthography)
  (D:\Programme\MikTex2.9\tex/generic/babel\babel.def
 File: babel.def 2019/09/27 3.34 Babel common definitions
-\babel@savecnt=\count109
-\U@D=\dimen118
+\babel@savecnt=\count113
+\U@D=\dimen127
  (D:\Programme\MikTex2.9\tex/generic/babel\txtbabel.def)
-\bbl@dirlevel=\count110
+\bbl@dirlevel=\count114
 )
 Package babel Info: Making " an active character on input line 121.
 ))) (D:\Programme\MikTex2.9\tex/latex/eurosym\eurosym.sty
@@ -287,23 +313,23 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 ) (D:\Programme\MikTex2.9\tex/latex/tools\longtable.sty
 Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
-\LTleft=\skip58
-\LTright=\skip59
-\LTpre=\skip60
-\LTpost=\skip61
-\LTchunksize=\count111
-\LTcapwidth=\dimen119
+\LTleft=\skip62
+\LTright=\skip63
+\LTpre=\skip64
+\LTpost=\skip65
+\LTchunksize=\count115
+\LTcapwidth=\dimen128
 \LT@head=\box34
 \LT@firsthead=\box35
 \LT@foot=\box36
 \LT@lastfoot=\box37
-\LT@cols=\count112
-\LT@rows=\count113
-\c@LT@tables=\count114
-\c@LT@chunks=\count115
+\LT@cols=\count116
+\LT@rows=\count117
+\c@LT@tables=\count118
+\c@LT@chunks=\count119
 \LT@p@ftn=\toks23
 )
-Class scrartcl Info: longtable captions redefined on input line 64.
+Class scrartcl Info: longtable captions redefined on input line 65.
  (D:\Programme\MikTex2.9\tex/latex/geometry\geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
  (D:\Programme\MikTex2.9\tex/generic/oberdiek\ifpdf.sty
@@ -314,24 +340,24 @@ Package ifvtex Info: VTeX not detected.
 ) (D:\Programme\MikTex2.9\tex/generic/ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count116
-\Gm@cntv=\count117
-\c@Gm@tempcnt=\count118
-\Gm@bindingoffset=\dimen120
-\Gm@wd@mp=\dimen121
-\Gm@odd@mp=\dimen122
-\Gm@even@mp=\dimen123
-\Gm@layoutwidth=\dimen124
-\Gm@layoutheight=\dimen125
-\Gm@layouthoffset=\dimen126
-\Gm@layoutvoffset=\dimen127
+\Gm@cnth=\count120
+\Gm@cntv=\count121
+\c@Gm@tempcnt=\count122
+\Gm@bindingoffset=\dimen129
+\Gm@wd@mp=\dimen130
+\Gm@odd@mp=\dimen131
+\Gm@even@mp=\dimen132
+\Gm@layoutwidth=\dimen133
+\Gm@layoutheight=\dimen134
+\Gm@layouthoffset=\dimen135
+\Gm@layoutvoffset=\dimen136
 \Gm@dimlist=\toks24
  (D:\Programme\MikTex2.9\tex/latex/geometry\geometry.cfg)) (D:\Programme\MikTex2.9\tex/latex/fancybox\fancybox.sty
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \@fancybox=\box38
-\shadowsize=\dimen128
+\shadowsize=\dimen137
 \@Sbox=\box39
 \do@VerbBox=\toks25
 \the@fancyput=\toks26
@@ -392,15 +418,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ) (D:\Programme\MikTex2.9\tex/latex/oberdiek\kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen129
-\Hy@linkcounter=\count119
-\Hy@pagecounter=\count120
+\@linkdim=\dimen138
+\Hy@linkcounter=\count123
+\Hy@pagecounter=\count124
  (D:\Programme\MikTex2.9\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2019/09/28 v7.00a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count121
+\Hy@SavedSpaceFactor=\count125
  (D:\Programme\MikTex2.9\tex/latex/00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -413,12 +439,12 @@ Package hyperref Info: Plain pages OFF on input line 4555.
 Package hyperref Info: Backreferencing OFF on input line 4560.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4793.
-\c@Hy@tempcnt=\count122
+\c@Hy@tempcnt=\count126
 LaTeX Info: Redefining \url on input line 5152.
-\XeTeXLinkMargin=\dimen130
-\Fld@menulength=\count123
-\Field@Width=\dimen131
-\Fld@charsize=\dimen132
+\XeTeXLinkMargin=\dimen139
+\Fld@menulength=\count127
+\Field@Width=\dimen140
+\Fld@charsize=\dimen141
 Package hyperref Info: Hyper figures OFF on input line 6423.
 Package hyperref Info: Link nesting OFF on input line 6428.
 Package hyperref Info: Hyper index ON on input line 6431.
@@ -428,19 +454,19 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6448.
 Package hyperref Info: PDF/A mode OFF on input line 6453.
 LaTeX Info: Redefining \ref on input line 6493.
 LaTeX Info: Redefining \pageref on input line 6497.
-\Hy@abspage=\count124
-\c@Item=\count125
+\Hy@abspage=\count128
+\c@Item=\count129
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (D:\Programme\MikTex2.9\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2019/09/28 v7.00a Hyperref driver for pdfTeX
-\Fld@listcount=\count126
-\c@bookmark@seq@number=\count127
+\Fld@listcount=\count130
+\c@bookmark@seq@number=\count131
  (D:\Programme\MikTex2.9\tex/latex/oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
-\Hy@SectionHShift=\skip62
+\Hy@SectionHShift=\skip66
 )
 
 Class scrartcl Warning: Usage of package `fancyhdr' together
@@ -448,27 +474,27 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              I'd suggest to use 
 (scrartcl)              package `scrlayer-scrpage'.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 95.
+(scrartcl)              package `fancyhdr' on input line 96.
 
 (C:\Users\Victor\AppData\Roaming\MiKTeX\2.9\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip63
-\f@ncyO@elh=\skip64
-\f@ncyO@erh=\skip65
-\f@ncyO@olh=\skip66
-\f@ncyO@orh=\skip67
-\f@ncyO@elf=\skip68
-\f@ncyO@erf=\skip69
-\f@ncyO@olf=\skip70
-\f@ncyO@orf=\skip71
+\fancy@headwidth=\skip67
+\f@ncyO@elh=\skip68
+\f@ncyO@erh=\skip69
+\f@ncyO@olh=\skip70
+\f@ncyO@orh=\skip71
+\f@ncyO@elf=\skip72
+\f@ncyO@erf=\skip73
+\f@ncyO@olf=\skip74
+\f@ncyO@orf=\skip75
 ) (D:\Programme\MikTex2.9\tex/latex/tools\array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen133
+\col@sep=\dimen142
 \ar@mcellbox=\box40
-\extrarowheight=\dimen134
+\extrarowheight=\dimen143
 \NC@list=\toks29
-\extratabsurround=\skip72
-\backup@length=\skip73
+\extratabsurround=\skip76
+\backup@length=\skip77
 \ar@cellbox=\box41
 ) (D:\Programme\MikTex2.9\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -491,9 +517,9 @@ LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
 Package cleveref Info: `listings' support loaded on input line 3131.
 )
-\c@satz=\count128
-\c@definition=\count129
-\c@beweis=\count130
+\c@satz=\count132
+\c@definition=\count133
+\c@beweis=\count134
 \@indexfile=\write4
 \openout4 = `Hauptdatei.idx'.
 
@@ -502,37 +528,37 @@ Writing index file Hauptdatei.idx
 (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.aux)
 \openout1 = `Hauptdatei.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 130.
  (D:\Programme\MikTex2.9\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\c@lstlisting=\count131
+\c@lstlisting=\count135
  (C:\Users\Victor\AppData\Roaming\MiKTeX\2.9\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count132
-\scratchdimen=\dimen135
+\scratchcounter=\count136
+\scratchdimen=\dimen144
 \scratchbox=\box42
-\nofMPsegments=\count133
-\nofMParguments=\count134
+\nofMPsegments=\count137
+\nofMParguments=\count138
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count135
-\MPscratchDim=\dimen136
-\MPnumerator=\count136
-\makeMPintoPDFobject=\count137
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen145
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
 \everyMPtoPDFconversion=\toks31
 ) (D:\Programme\MikTex2.9\tex/latex/oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -579,23 +605,23 @@ Package grfext Info: Graphics extension search list:
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 129.
+Package hyperref Info: Link coloring OFF on input line 130.
 (D:\Programme\MikTex2.9\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (D:\Programme\MikTex2.9\tex/generic/oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count138
+\c@section@level=\count142
 )
-LaTeX Info: Redefining \ref on input line 129.
-LaTeX Info: Redefining \pageref on input line 129.
-LaTeX Info: Redefining \nameref on input line 129.
+LaTeX Info: Redefining \ref on input line 130.
+LaTeX Info: Redefining \pageref on input line 130.
+LaTeX Info: Redefining \nameref on input line 130.
  (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.out) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.out)
 \@outlinefile=\write5
 \openout5 = `Hauptdatei.out'.
 
  (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\latex_einstellungen/trennung.tex) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\latex_einstellungen/deckblatt.tex
-<abb/FHRO_Logo.PNG, id=50, 617.9085pt x 169.8345pt>
+<abb/FHRO_Logo.PNG, id=102, 617.9085pt x 169.8345pt>
 File: abb/FHRO_Logo.PNG Graphic file (type png)
 <use abb/FHRO_Logo.PNG>
 Package pdftex.def Info: abb/FHRO_Logo.PNG  used on input line 6.
@@ -644,96 +670,135 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \openout6 = `Hauptdatei.toc'.
 
  [3] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\1_einleitung.tex) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\2_TheoretischeGrundlagen.tex
-<abb/Feed_forward_neural_net.png, id=87, 381.425pt x 441.65pt>
+<abb/Feed_forward_neural_net.png, id=152, 381.425pt x 441.65pt>
 File: abb/Feed_forward_neural_net.png Graphic file (type png)
 <use abb/Feed_forward_neural_net.png>
 Package pdftex.def Info: abb/Feed_forward_neural_net.png  used on input line 26.
 (pdftex.def)             Requested size: 176.40439pt x 204.25317pt.
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 46.
+ [4]
+LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 48.
  (D:\Programme\MikTex2.9\tex/latex/lm\omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 46.
- [4 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/Feed_forward_neural_net.png>]
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 57.
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--109
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 59.
+ [5 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/Feed_forward_neural_net.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 103--111
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 129--136
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 131--138
 
  []
 
 (C:\Users\Victor\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 156--163
+Underfull \hbox (badness 10000) in paragraph at lines 158--165
 
  []
 
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 240--248
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 242--250
 
  []
 
-<<<<<<< HEAD
 
-Overfull \hbox (2.76591pt too wide) in paragraph at lines 257--259
+Overfull \hbox (2.76591pt too wide) in paragraph at lines 259--261
 []\T1/lmr/m/it/12 Der \T1/lmr/bx/it/12 ADAM \T1/lmr/m/it/12 Al-go-rith-mus ist de-fi-niert durch den Ak-tua-li-sie-rungs-schritt 
  []
 
-[8]) (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\3_Evaluation.tex) (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [9] (c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl
-=======
-) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\3_Evaluation.tex) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [8] [9] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl
->>>>>>> 119d976904b77e1af8e700f5d8b92f1e47f8aba5
-Underfull \hbox (badness 1424) in paragraph at lines 32--35
-[]\T1/lmr/m/sc/12 Michael Niel-sen\T1/lmr/m/n/12 :  \T1/lmr/m/it/12 Neural Net-works and De-ep Lear-ning\T1/lmr/m/n/12 .  []$\T1/lmtt/m/n/12 http : / /
+[9]) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\3_Evaluation.tex
+<abb/BostonBeispiel.PNG, id=233, 475.7775pt x 85.06781pt>
+File: abb/BostonBeispiel.PNG Graphic file (type png)
+<use abb/BostonBeispiel.PNG>
+Package pdftex.def Info: abb/BostonBeispiel.PNG  used on input line 33.
+(pdftex.def)             Requested size: 441.01773pt x 78.85652pt.
+ [10 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/BostonBeispiel.PNG>]
+<abb/BreastCancerBeispiel.PNG, id=241, 529.22719pt x 102.3825pt>
+File: abb/BreastCancerBeispiel.PNG Graphic file (type png)
+<use abb/BreastCancerBeispiel.PNG>
+Package pdftex.def Info: abb/BreastCancerBeispiel.PNG  used on input line 59.
+(pdftex.def)             Requested size: 441.01773pt x 85.31801pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--74
+
  []
 
-) [10] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\erklaerung.tex
+[11 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/BreastCancerBeispiel.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 91--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+
+ []
+
+[12]
+<abb/STI_fertig.png, id=267, 402.00188pt x 325.66669pt>
+File: abb/STI_fertig.png Graphic file (type png)
+<use abb/STI_fertig.png>
+Package pdftex.def Info: abb/STI_fertig.png  used on input line 179.
+(pdftex.def)             Requested size: 441.01773pt x 357.2704pt.
+ [13] [14 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/STI_fertig.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 232--244
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 245--258
+
+ []
+
+[16]
+<abb/boston_score.png, id=311, 223.58531pt x 73.77562pt>
+File: abb/boston_score.png Graphic file (type png)
+<use abb/boston_score.png>
+Package pdftex.def Info: abb/boston_score.png  used on input line 304.
+(pdftex.def)             Requested size: 264.61333pt x 87.32124pt.
+<abb/VisualizationDivergenz.PNG, id=313, 462.22687pt x 360.59718pt>
+File: abb/VisualizationDivergenz.PNG Graphic file (type png)
+<use abb/VisualizationDivergenz.PNG>
+Package pdftex.def Info: abb/VisualizationDivergenz.PNG  used on input line 315.
+(pdftex.def)             Requested size: 264.61333pt x 206.43388pt.
+ [17 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/boston_score.png> <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/VisualizationDivergenz.PNG>]
+<abb/breast_cancer_score.PNG, id=326, 227.34938pt x 76.78688pt>
+File: abb/breast_cancer_score.PNG Graphic file (type png)
+<use abb/breast_cancer_score.PNG>
+Package pdftex.def Info: abb/breast_cancer_score.PNG  used on input line 340.
+(pdftex.def)             Requested size: 264.61333pt x 89.37395pt.
+) (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\4_Fazit.tex) [18 <c:/Users/Victor/Projects/STI-Optimization-of-NNs/docs/abb/breast_cancer_score.PNG>] [19] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.bbl) [20] (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\erklaerung.tex
 Overfull \hbox (45.09023pt too wide) detected at line 23
 []
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
  (c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
 Package rerunfilecheck Info: File `Hauptdatei.out' has not changed.
-(rerunfilecheck)             Checksum: 958B921D647E30462460FFACF1336B7B;761.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
+(rerunfilecheck)             Checksum: 29C73BE85116ADFF291EF718F32361E4;1759.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 15233 strings out of 492450
- 258964 string characters out of 3119537
- 638413 words of memory out of 3000000
- 19243 multiletter control sequences out of 15000+200000
- 64010 words of font info for 49 fonts, out of 3000000 for 9000
- 1145 hyphenation exceptions out of 8191
- 45i,16n,56p,10130b,1306s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Victor/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\Victor\PycharmProjects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (11 pages, 384377 bytes).
-=======
- 14104 strings out of 492452
- 223799 string characters out of 3132157
- 444597 words of memory out of 3000000
- 18172 multiletter control sequences out of 15000+200000
- 64010 words of font info for 49 fonts, out of 3000000 for 9000
+ 14820 strings out of 492452
+ 236723 string characters out of 3132157
+ 461039 words of memory out of 3000000
+ 18811 multiletter control sequences out of 15000+200000
+ 72542 words of font info for 51 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  44i,16n,53p,8875b,1306s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-ec.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathit.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-mathex.enc}{D:/Programme/MikTex2.9/fonts/enc/dvips/lm/lm-rm.enc}<D:/Programme/MikTex2.9/fonts/type1/public/lm/lmbx12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmbxi10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmcsc10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmex10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi6.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmmi8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr17.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr6.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmr8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmri12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmssbx10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmsy10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmsy8.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmtt10.pfb><D:/Programme/MikTex2.9/fonts/type1/public/lm/lmtt12.pfb><D:/Programme/MikTex2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (11 pages, 382100 bytes).
->>>>>>> 119d976904b77e1af8e700f5d8b92f1e47f8aba5
+Output written on c:/Users\Victor\Projects\STI-Optimization-of-NNs\docs\Hauptdatei.pdf (21 pages, 652408 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 448 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

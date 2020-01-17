@@ -15,7 +15,7 @@ Diese Funktionsweise macht man sich bei künstlichen
 Neuronalen Netzen zu nutze.
 Der Eingangsreiz sind hier 
 die sogenannten \grqq features\grqq{}, 
-der Ausgangsreiz eine Klasse oder ein Wert
+der Ausgangsreiz, eine Klasse oder ein Wert,
 der interpretiert werden kann.
 Wir wollen uns hier nun nur auf die \grqq Feed Forward\grqq{}
 Netze fokussieren. Das bedeutet das Neuronen ihre Ausgabe
@@ -32,15 +32,17 @@ KNNs existieren in zwei Zuständen der Trainingsphase
 und der Arbeitsphase. 
 Die Trainingsphase ist die interessantere und wird in
 dieser Arbeit beleuchtet. Hier werden durch Optimierung 
-der Fehlerfunktion die Neuronen so "eingestellt" ,
-dass sie einen möglichst gute Vorhersage treffen. 
+der Fehlerfunktion die Neuronen so ``eingestellt'' ,
+dass sie eine möglichst gute Vorhersage treffen.
+In der Arbeitsphase werden dem Netz dann neue Eingangsreize gegeben,
+die dieses dann interpretieren soll.
 
 Im Folgenden soll nun der Begriff des Neurons formalisiert 
 werden, um die Verbesserungsmöglichkeiten des Gradienten
-Verfahrens in Abschnitt \ref{Optimierungsmethoden} 
+Abstiegverfahrens in Abschnitt \ref{Optimierungsmethoden} 
 nachvollziehen zu können.
 
-\begin{definition}
+\begin{definition} \label{Def:formales Neuron}
 \cite[Kapitel 1.2]{BurkhardLenze.1997} Ein (\textbf{formales) Neuron} ist eine Funktion $\kappa: \mathbb{R}^n \rightarrow \mathbb{R}^m$ definiert durch:
 \begin{itemize}
 \item eine Aktivierungsfunktion $T:\mathbb{R} \rightarrow \mathbb{R}$
@@ -93,7 +95,7 @@ Die erste Eigenschaft bedeutet, dass die gesamte Fehlerfunktion
 sich auch durch die Fehlerfunkton der einzelnen Eingabe Daten darstellen lässt.
 Diese Fehlerfunktion wird im nächsten Abschnitt minimiert werden, um
 eine optimale Parameterbelegung der Gewichte $\vec{w}$ zu finden. 
-Beispiele für eine solche Funktion wäre der 
+Beispiel für eine solche Funktion wäre der 
 mittlere quadratische Fehler.
 
 \subsection{Gradient Descent}\label{Gradient Descent}
@@ -128,11 +130,11 @@ wir den Gradienten.
 
 In einfachen Worte gefasst, ist der Gradient die Ableitung einer mehrdimensionalen
 Funktion, deren Funktionswerte man sich als Gebirge vorstellen kann.
-Hierbei ist der Gradient in einen Punkt ein Vektor der in die Richtung des 
-stärksten Anstiegs. \\
+Hierbei ist der Gradient, in einen Punkt, ein Vektor, der in die Richtung des 
+stärksten Anstiegs zeigt. \\
 Um die Richtung des stärksten Abstiegs zu erhalten, welche wir beim Gradienten
 Abstiegsverfahren benötigen, müssen wir nur den negativen Gradienten berechnen. \\\\
-Mit diesem Wissen können wir nun den Standard gradient descent algorithmus definieren.
+Mit diesem Wissen können wir nun den Standard Gradient Descent Algorithmus definieren.
 
 \begin{definition}
     \cite[Kapitel 2.1]{Ruder.9152016}
@@ -209,7 +211,7 @@ Nun wird nicht mehr für jedes einzelne Datum der Gradient berechnet, sondern
 für einen Teilmenge der Größe $n$. In mancher Literatur, wird 
 dieser Algorithmus noch einmal extra als \textbf{Mini-batch gradient descent} benannt.
 \cite[Kapitel 2.3]{Ruder.9152016}. In den Implementierungen wird hier jedoch meist 
-keine Unterscheidung mehr getroffen. \cite{FrancoisChollet.}
+keine Unterscheidung mehr getroffen. \cite{chollet2015keras}
 
 \subsubsection{Adagrad}\label{Adagrad}
 
@@ -261,6 +263,20 @@ zu umgehen.
     \end{align}
     wobei 
     \begin{align}
-        \hat{m}_t = \beta_1
+        \hat{m}_t = \frac{\beta_1 m_{t-1} + (1- \beta_1) g_t}{1-\beta^t_1}
     \end{align}
+    und
+    \begin{align}
+        \hat{v}_t = \frac{\beta_2 v_{t-1} + (1- \beta_2) g_t^2}{1-\beta^t_1}
+    \end{align}
+    wobei $\hat{m_t}$ den Mittelwert des Gradienten über die Zeit beschreibt
+    und $\hat{v_t}$ die Varianz. 
+    $\beta_1$ und $\beta_2$ sind dabei Zerfall Raten, die bestimmen,
+    wieviel Einfluss die vergangenen Gradienten auf den neuen Wert nehmen.
 \end{definition}
+
+Adam ist deswegen ein sehr beliebter Optimierungsalgorithmus, da er nicht nur 
+adaptiv für jeden einzelnen Parameter arbeitet, sondern durch die Anpassung mit 
+Mittelwert und Varianz der vergangenen Gradienten statistisches Wissen über
+die Beschaffenheit der Oberfläche mit einbringt.
+

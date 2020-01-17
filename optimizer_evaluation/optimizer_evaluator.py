@@ -61,7 +61,9 @@ class OptimizerEvaluator(Data_Evaluator):
 
                 scores = nn.evaluate(X_test, y_test, verbose=0)
                 score_list.append(scores)
+            
                 predict = nn.predict(X_test.values, batch_size=1)
+                y_test = y_test.sort_values(by=[y_test.columns[0]])
 
                 _plot_eval(name, opt, predict, y_test)
 

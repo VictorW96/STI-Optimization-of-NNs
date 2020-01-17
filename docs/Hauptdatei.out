@@ -7,6 +7,19 @@
 \BOOKMARK [3][-]{subsubsection.2.3.2}{2.3.2 Adagrad}{subsection.2.3}% 7
 \BOOKMARK [3][-]{subsubsection.2.3.3}{2.3.3 Adam}{subsection.2.3}% 8
 \BOOKMARK [1][-]{section.3}{3 Evaluation}{}% 9
-\BOOKMARK [1][-]{section.4}{4 Fazit}{}% 10
-\BOOKMARK [1][-]{section.4}{Literaturverzeichnis}{}% 11
-\BOOKMARK [1][-]{section*.4}{Eidesstattliche Erkl\344rung}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{3.1 Test Datensatz}{section.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.1.1}{3.1.1 Boston House Price}{subsection.3.1}% 11
+\BOOKMARK [3][-]{subsubsection.3.1.2}{3.1.2 Breast Cancer}{subsection.3.1}% 12
+\BOOKMARK [2][-]{subsection.3.2}{3.2 Metrik}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.3}{3.3 Programm}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.3.1}{3.3.1 Frameworks}{subsection.3.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.3.2}{3.3.2 Aufbau}{subsection.3.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.3}{3.3.3 Netzstruktur}{subsection.3.3}% 17
+\BOOKMARK [2][-]{subsection.3.4}{3.4 Auswertung}{section.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.4.1}{3.4.1 Erwartungen}{subsection.3.4}% 19
+\BOOKMARK [3][-]{subsubsection.3.4.2}{3.4.2 Boston House Price Auswertung}{subsection.3.4}% 20
+\BOOKMARK [3][-]{subsubsection.3.4.3}{3.4.3 Breast Cancer Auswertung}{subsection.3.4}% 21
+\BOOKMARK [3][-]{subsubsection.3.4.4}{3.4.4 Vergleich mit der Literatur}{subsection.3.4}% 22
+\BOOKMARK [1][-]{section.4}{4 Fazit}{}% 23
+\BOOKMARK [1][-]{section.4}{Literaturverzeichnis}{}% 24
+\BOOKMARK [1][-]{section*.4}{Eidesstattliche Erkl\344rung}{}% 25
