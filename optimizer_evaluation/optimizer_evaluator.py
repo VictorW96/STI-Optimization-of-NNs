@@ -5,10 +5,10 @@ from optimizer_evaluation.data_evaluator import Data_Evaluator
 
 
 import pandas as pd
-
+from keras import optimizers
 
 def _save_nn(nn, name, optimizer):
-    nn.save_weights("res/" + name + optimizer + ".h5")
+    nn.save_weights("res/" + name + __get_string_optimizer(optimizer) + ".h5")
 
 
 def _plot_eval(name, optimizer, predict, y_test):
@@ -19,11 +19,15 @@ def _plot_eval(name, optimizer, predict, y_test):
     ax.set_xlabel("Index")
     ax.set_ylabel("Target")
     ax.set_title("Predicted (green) vs. Real Values (blue)")
-    plt.savefig("docs/" + name + "/" + name + "_" + optimizer + ".png")
+    plt.savefig("docs/" + name + "/" + name + "_" + __get_string_optimizer(optimizer) + ".png")
+
+def __get_string_optimizer(optimizer):
+    string_optimizer = str(type(optimizer))
+    return "".join(e for e in string_optimizer if e.isalnum())
 
 
 class OptimizerEvaluator(Data_Evaluator):
-    optimizer = {'adam': 'adam', 'sgd': 'sgd', 'adagrad': 'adagrad'}
+    optimizer = {'adam': 'adam', 'sgd': optimizers.SGD(learning_rate=0.05, momentum=0.0, nesterov=False), 'adagrad': optimizers.Adagrad(learning_rate=0.02)}
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -63,4 +67,4 @@ class OptimizerEvaluator(Data_Evaluator):
 
             score_df = pd.DataFrame(score_list, columns=nn.metrics_names,
                                     index=list(OptimizerEvaluator.optimizer.values()))
-            score_df.to_csv("docs/" + name + "/" + name + "_score.csv")
+            score_df.to_csv("docs/" + name + "/" + name  +"_score.csv", mode = "a")
